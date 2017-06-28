@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 body{
     overflow-x: hidden;
+    width: 100%;
 }
 nav{
     margin: 0;
@@ -61,74 +61,34 @@ input{
     display: none;
 }
 
-:checked + .card{
+:checked + .card {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-=======
-body{
-    overflow-x: hidden;
 }
-nav{
-    margin: 0;
+
+.mapWrapper {
+    position: relative;
+    padding-bottom: 56.6666667%; /* height/width */
+    height: 0;
+    margin: 10px;
+}
+
+.mapWrapper iframe{
     position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+#broken{
+    background-color: red;
     width: 100%;
 }
-.container{
-    margin: 0;
-    padding: 0;
-    width: 100%;
+#gallery{
+    background-color: yellow;
 }
 
-img{
-    width: 100%;
-}
-
-label{
-    -webkit-perspective: 1000px;
-    perspective: 1000px;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    width: 263px;
-    height: 200px;
-    cursor: pointer;
-    margin: 2%;
-    /*z-index: 0;*/
-    float: left;
-}
-
-.card{
-    width: 100%;
-    height: 100%;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    /*z-index: 20;*/
-}
-
-.card div{
-    position: absolute;
-    width: 100%;
-    height:100%;
-    background-color: #5bc0de;
-    text-align: center;
-    line-height: 200px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.card .back{
-    background-color: #5cb85c;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-input{
-    display: none;
-}
-
-:checked + .card{
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
->>>>>>> 575e1b23b871d6dfd9eaefc2cf1b6d97ec026fff
+#location{
+    background-color: #31b0d5;
 }
