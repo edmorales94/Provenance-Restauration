@@ -73,14 +73,6 @@ input{
     margin: 10px;
 }
 
-.mapWrapper iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-}
-
 #broken{
     background-color: red;
     width: 100%;
@@ -91,4 +83,8 @@ input{
 
 #location{
     background-color: #31b0d5;
+}
+
+.mapWrapper  img{
+    cursor: pointer;
 }
