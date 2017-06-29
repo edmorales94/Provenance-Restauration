@@ -4,11 +4,17 @@ $(document).ready(function () {
     })
 });
 
-$('img.mapLink').on("click",function () {
-        window.open('https://goo.gl/maps/gdAeVddaPcC2','_blank');
-});
-
 function openNewTab(url) {
     var win = window.open(url, '_blank');
     win.focus();
 }
+
+$(document).ready(function () {
+    $('.opening-hours li').eq(new Date().getDay()).addClass('today');
+});
+
+$(document).ready((function () {
+    $(".nonclickable").on("click",function (e) {
+        e.preventDefault();
+    })
+}));
