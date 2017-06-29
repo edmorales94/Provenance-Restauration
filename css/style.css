@@ -2,17 +2,37 @@ body{
     overflow-x: hidden;
     width: 100%;
 }
-nav{
+/* ---------- Navigation bar ----------------------------------------------------------------------------------------*/
+.navbar-default{
+    position: fixed;
     margin: 0;
-    position: absolute;
     width: 100%;
+    background: rgba(19,19,19,0.7);
+    box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
+    border-bottom-color: transparent;
 }
+
+/* ---------- Brand Name in navigation bar --------------------------------------------------------------------------*/
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+ul .navbar .navbar-nav li{
+    color: white;
+}
+
+/* ---------- Menu icon will change background color if it's hovered ------------------------------------------------*/
+.navbar-default .navbar-toggle:hover{
+    background-color: #5a5758;
+}
+
+/* ---------- This changes the default color of the menu bars icons -------------------------------------------------*/
 .container{
     margin: 0;
     padding: 0;
     width: 100%;
 }
-
 img{
     width: 100%;
 }
@@ -140,7 +160,7 @@ input{
 /*---------- footer section ------------------------------------------------------------------------------------------*/
 footer{
     background: #243c4f;
-    padding: 60px 0;
+    padding: 15px 0;
 }
 
 footer p{
@@ -167,18 +187,18 @@ footer .footer-title{
 footer .footer-title:after{
     content: '';
     display: block;
-    width: 60px;
+    width: 110px;
     height: 1px;
     background: #3ac341;
-    margin-top: 8px;
+    margin-top: 0;
 }
 
 footer .right-border{
-    border-right: 2px solid rgba(255,255,255,0.1);
+    border-right: 3px solid rgba(255,255,255,0.1);
 }
 
 footer .left-border{
-    border-left: 2px solid rgba(255,255,255,0.1);
+    border-left: 3px solid rgba(255,255,255,0.1);
 }
 
 @media (max-width: 991px){
@@ -199,6 +219,10 @@ footer .left-border{
     footer .left-border{
         border-left: none;
     }
+
+    footer .contact-info{
+        border-top: 2px solid white;
+    }
     footer .navigation {
         margin-top: 40px;
         border-top: 1px solid white;
@@ -206,19 +230,18 @@ footer .left-border{
 }
 
 footer .footer-about {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 40px;
+    padding: 0 0 20px 20px;
 }
 
 footer .contact-info .single {
-    margin: 15px 0;
+    margin: 15px 0 0 10px;
 }
 
-footer .contact-info .single i {
+footer .contact-info .single i { /* icons */
     display: block;
     float: left;
     color: #3ac341;
-    margin-right: 10px;
+    margin-right: 15px;
     line-height: 22px;
 }
 
@@ -229,30 +252,33 @@ footer .contact-info .single p {
     overflow: hidden;
 }
 
-footer .social-icon{
+footer .social-icon{ /*social media icons */
     margin-top: 40px;
+    margin-left: 15px;
 }
 
 footer .social-icon li a {
-    display: block;
-    width: 32px;
-    height: 32px;
+    display: block;/*draws square around social icon */
+    width: 45px;
+    height: 45px;
     margin-right: 5px;
     text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+    transform: rotate(45deg);/*rotates square to make it look like a diamond*/
 }
 
-footer .social-icon li a:hover {
+footer .social-icon li a:hover { /*changes diamonds color*/
     border-color: #3ac341;
-    color: #3ac341;
 }
 
+footer .social-icon li a:visited{
+    border-color: #3ac341;
+}
 footer .social-icon li a i {
-    line-height: 32px;
+    line-height: 43px;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -260,7 +286,7 @@ footer .social-icon li a i {
 }
 
 footer .navigation li a {
-    color: rgba(255, 255, 255, 0.6);
+    color: white;
     text-transform: uppercase;
     line-height: 30px;
     text-decoration: none;
