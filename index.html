@@ -14,13 +14,13 @@
     <script src="scripts/bootstrap.js"> </script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/icons.js"></script>
 
 
     <title>Provenance Restoration Services, Inc</title>
 </head>
 
 <body>
-
 <!----------- navigation bar section --------------------------------------------------------------------------------------------------------------------------------------------------->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- navbar is a wrapper/navbar-default puts the nav's background/ role makes sure more technologies get the navigation -->
         <div class = "container-fluid"> <!-- container-fluid spans the full width of the screen -->
@@ -107,7 +107,6 @@
                 </div>
             </div>
         </section>
-
         <!---------- Broken furniture ------------------------------------------------------------------------------------------------------------------------------------------------------->
         <section class="bg-primary" id="broken">
             <div class="container">
@@ -123,12 +122,12 @@
                 </div>
             </div>
         </section>
-
         <!---------- Gallery section ------------------------------------------------------------------------------------------------------------------------------------------------------->
         <section class = "container" id="gallery">
             <div class="text-center">
                 <h1> Project Gallery <br> Before and After</h1>
             </div>
+
             <label>
                 <input type="checkbox"/>
                 <div class="card">
@@ -185,11 +184,10 @@
                 </div>
             </label>
         </section>
-
         <!---------- Google maps and hours section ----------------------------------------------------------------------------------------------------------------------------------------->
-        <section class="container" id="location" >
+        <section class="container-fluid" id="location" >
             <div class="row">
-                <div class="mapWrapper embed-responsive">
+                <div class="mapWrapper col-sm-4">
                     <a onclick="openNewTab('https://goo.gl/maps/eTT1BSKVuNR2');">
                         <img src="images/map.png" class="img-responsive" style="width: 530px; height: auto;"/>
                     </a>
@@ -197,17 +195,80 @@
 
                 <div class="col-sm-4">
                     <div class="business-hours">
-
+                        <h2 class="title">Opening Hours</h2>
+                        <ul class="list-unstyled opening-hours">
+                            <li>Sunday <span class="pull-right">Closed</span></li>
+                            <li>Monday <span class="pull-right">9:00 am - 6:00 pm</span></li>
+                            <li>Tuesday <span class="pull-right">9:00 am - 6:00 pm</span></li>
+                            <li>Wednesday <span class="pull-right">9:00 am - 6:00 pm</span></li>
+                            <li>Thursday <span class="pull-right">9:00 am - 6:00 pm</span></li>
+                            <li>Friday <span class="pull-right">9:00 am - 6:00 pm</span></li>
+                            <li>Saturday <span class="pull-right">9:00 am - 6:00 pm</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="container">
-            <h1>
-                Contact us
-            </h1>
-        </section>
     </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 right-border">
+                    <div class="footer-about">
+                        <h2 class="footer-title">About us</h2>
+                        <p>Our mission is to provide the finest in antique, fine and contemporary furniture repairs, restorations,
+                            conservation and refinishing on Huntington Station.</p>
+                    </div>
+                    <div class="copyright hidden-sm hidden-xs">
+                        <p>Copyrights &copy;2017 <a class="nonclickable" href="#" title="">Provenance Restoration</a>. All Rights Reserved </p>
+                        <p> Developed By: <a href="https://github.com/edmorales94" title="">Edgar Morales</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="contact-info">
+                            <h2 class="footer-title">Contact Info</h2>
+                            <div class="single">
+                                <i class="fa fa-map-marker"></i>
+                                <p>230 Broadway, Suite 10<br>
+                                    Huntington Station, NY 11746<br>
+                                    United States</p>
+                            </div>
+                            <div class="single">
+                                <i class="fa fa-phone"></i>
+                                <p>(631)575-9068</p>
+                            </div>
+                            <div class="single">
+                                <i class="fa fa-envelope"></i>
+                                <p>provenance230@gmail.com</p>
+                            </div>
+
+                            <div class="social-icon">
+                                <ul class="list-inline">
+                                    <li><a href="https://www.facebook.com/provenance230/" title=""> <i class="fa fa-facebook"></i> </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 left-border">
+                        <div class="navigation">
+                            <h2 class="footer-title">Navigation</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#"title="">Home</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="copyright visible-sm visible-xs">
+                        <p>Copyrights &copy;2017 <a class="nonclickable" href="#" title="">Provenance Restoration</a>. All Rights Reserved </p>
+                        <p> Developed By: <a href="https://github.com/edmorales94" title="">Edgar Morales</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
