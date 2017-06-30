@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('.carousel').carousel({
         interval: 5000
-    })
+    });
 });
 
 function openNewTab(url) {
@@ -13,8 +13,8 @@ $(document).ready(function () {
     $('.opening-hours li').eq(new Date().getDay()).addClass('today');
 });
 
-$(document).ready((function () {
-    $(".nonclickable").on("click",function (e) {
-        e.preventDefault();
-    })
-}));
+$(document).ready(function () {
+    $(".btn").click(function (event) {
+        $(this).blur();
+    });
+});
