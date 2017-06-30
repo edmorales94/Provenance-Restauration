@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;/* without this, theres going to be a small space to the right > 100% */
+    background-color: #E3CCA1;
 }
 /* ---------- Navigation bar ----------------------------------------------------------------------------------------*/
 .navbar-default{
@@ -113,7 +114,7 @@ input{
 }
 
 #broken{
-    background-color: red;
+
     width: 100%;
 }
 #gallery{
