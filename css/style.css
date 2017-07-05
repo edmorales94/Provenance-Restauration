@@ -7,9 +7,18 @@ body{
     position: fixed;
     margin:0;
     width: 100%;
-    background: rgba(19,19,19,0.7);
-    box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
-    border-color: transparent;
+    background-size: 40px 160px,60px 29px, 27px 27px;/*This determines the size of the nav background bars*/
+    background-image:linear-gradient(94deg, rgba(91,33,5,.1) 0%,/*this is the code for the nav bars colors */
+    rgba(83,29,4,0.32) 23%,
+    rgba(74,24,3,.41) 47%,
+    rgba(80,27,5,0.44) 70%,
+    rgba(81,27,5,0.59) 74%,
+    rgba(93,33,4,0.2) 83%,
+    rgba(115,43,3,.5) 100%),
+    linear-gradient(90deg, #541c09 50%, transparent 50%),
+    linear-gradient(90deg, #7a2e00 50%,
+            #632401 50%);/*end of the nav bar colors */
+    border-color: black;
 }
 /* ---------- Brand Name in navigation bar --------------------------------------------------------------------------*/
 .navbar-default .navbar-brand {
