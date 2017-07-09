@@ -1,9 +1,18 @@
 body{
     overflow-x: hidden;/* without this, theres going to be a small space to the right > 100% */
-    background-color: #E3CCA1;
+    background-color: #f4e8ce;
 }
 /* ---------- Navigation bar ----------------------------------------------------------------------------------------*/
 .navbar-default{
+    position: fixed;
+    margin:0;
+    width: 100%;
+    background: rgba(19,19,19,0.7);
+    box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
+    border-color: transparent;
+}
+/* ---------- Navigation bar wood color -----------------------------------------------------------------------------*/
+nav.wood{
     position: fixed;
     margin:0;
     width: 100%;
@@ -18,7 +27,7 @@ body{
     linear-gradient(90deg, #541c09 50%, transparent 50%),
     linear-gradient(90deg, #7a2e00 50%,
             #632401 50%);/*end of the nav bar colors */
-    border-color: black;
+    ;
 }
 /* ---------- Brand Name in navigation bar --------------------------------------------------------------------------*/
 .navbar-default .navbar-brand {
@@ -60,10 +69,26 @@ body{
     padding: 0;
     width: 100%;
 }
-img{
-    width: 100%;
+
+/*---------- Carousel section ---------------------------------------------------------------------------------------*/
+
+/*---------- About us section ---------------------------------------------------------------------------------------*/
+#about{
+    padding: 7% 5% 12% 5%; /*keeps everything away from the page margin */
 }
 
+/*---------- About us title ----------------------------------------------------------------------------------------*/
+#about h2{
+    margin-top: 0;
+    font-family: 'Tangerine', cursive, 'Cutive', serif, 'Arial Black', cursive;
+    font-weight: 900;
+}
+
+/*---------- line under the about us title --------------------------------------------------------------------------*/
+hr{
+    border-top: 2px solid black;
+    background-color: black;
+}
 /* ---------- For making the gallery pictures clickable -------------------------------------------------------------*/
 label{
     -webkit-perspective: 1000px;
@@ -129,6 +154,8 @@ input{
 #gallery{
     background-color: yellow;
 }
+
+.
 
 #location{
     background-color: #31b0d5;
