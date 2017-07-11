@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;/* without this, theres going to be a small space to the right > 100% */
-    background-color: #f4e8ce;
+    background-color: rgba(255,247,179,0.81);
 }
 /* ---------- Navigation bar ----------------------------------------------------------------------------------------*/
 .navbar-default{
@@ -71,23 +71,56 @@ nav.wood{
 }
 
 /*---------- Carousel section ---------------------------------------------------------------------------------------*/
-
+.carousel-inner img{
+    width: 100%;
+}
 /*---------- About us section ---------------------------------------------------------------------------------------*/
 #about{
-    padding: 7% 5% 12% 5%; /*keeps everything away from the page margin */
+    padding: 3% 2% 5% 2%; /*keeps everything away from the page margin */
 }
 
 /*---------- About us title ----------------------------------------------------------------------------------------*/
 #about h2{
-    margin-top: 0;
+    padding-top: -4%;
     font-family: 'Tangerine', cursive, 'Cutive', serif, 'Arial Black', cursive;
     font-weight: 900;
 }
 
 /*---------- line under the about us title --------------------------------------------------------------------------*/
-hr{
+#about hr{
     border-top: 2px solid black;
-    background-color: black;
+}
+
+/*---------- about us picture ---------------------------------------------------------------------------------------*/
+#about img{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 2%;
+}
+
+/*---------- about us text ------------------------------------------------------------------------------------------*/
+#about p{
+    text-align: left;
+    font-family: 'Cutive',serif;
+    font-size:  20px;
+    margin-top: -2%;
+}
+
+/*---------- broken furniture image ---------------------------------------------------------------------------------*/
+#broken img{
+    width: 100%;
+    height: 682px;
+}
+@media (max-width: 991px){
+    #broken img{
+        width: 100%;
+        height: auto;
+    }
+}
+/*---------- old chair image caption ------------------------------------------------------------------------------*/
+.imageCaption{
+    margin-top: 2%;
 }
 /* ---------- For making the gallery pictures clickable -------------------------------------------------------------*/
 label{
@@ -258,6 +291,12 @@ footer .left-border{
 }
 
 @media (max-width: 991px){
+    #about img{
+        width: 60%;
+        height: auto;
+        float: left;
+        margin-right: 2em;
+    }
     footer .copyright {
         border-top: 1px solid rgba(255, 255, 255, 0.1);
         margin-top: 40px;
