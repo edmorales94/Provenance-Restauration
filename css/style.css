@@ -226,31 +226,94 @@ nav.wood{
 }
 
 /*---------- old chair image -----------------------------------------------------------------------------------------*/
-#old img{
+#broken img{
     width: 100%;
-    height: 710px;
+    height: 660px;
+    margin-bottom: -4%;
+    filter: grayscale(100%);
 }
 
-/*---------- old chair image caption ---------------------------------------------------------------------------------*/
-#old .carousel-caption{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 61px;
+/*---------- broken chair image caption ------------------------------------------------------------------------------*/
+#broken .carousel-caption{
+    font-family: 'Crete Round', cursive;
+    color: cyan;
+    padding-top: -2%;
+    margin-top: -8%;
+    margin-right: -8%;
+    margin-left: 2%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
 }
-/* ---------- For making the gallery pictures clickable --------------------------------------------------------------*/
-label{
+
+/*----------- Services section ---------------------------------------------------------------------------------------*/
+#services{
+    margin-bottom: 6%;
+}
+
+/*---------- Service section title -----------------------------------------------------------------------------------*/
+#services .section-header{
+    font-family: 'Pacifico', cursive;
+    padding: 2% 0 3% 3%;
+    font-size: 55px;
+}
+
+/*---------- Services List Title -------------------------------------------------------------------------------------*/
+#services .service-title{
+    margin-top: -2%;
+    padding: 0 1% 0 2%;
+    font-family: 'Niconne', cursive;
+    font-size: 45px;
+}
+
+/*---------- Services descriptions -----------------------------------------------------------------------------------*/
+#services .service-content{
+    margin-top: -1%;
+    padding: 0 2% 0 2%;
+    font-family: 'Merienda',cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*---------- Gallery section -----------------------------------------------------------------------------------------*/
+#gallery{
+    padding: 0 1.5% 0 0.5%;
+    margin-bottom: 6%;
+}
+
+/*---------- Gallery section title -----------------------------------------------------------------------------------*/
+#gallery h1{
+    font-family: 'Pacifico',cursive;
+    font-size: 55px;
+    padding: 2% 2% 4% 2%;
+}
+
+/*---------- click on image message ----------------------------------------------------------------------------------*/
+#gallery p{
+    margin-top: -3%;
+    margin-bottom: 3%;
+    font-size: 18px;
+}
+/*---------- gallery pictures ----------------------------------------------------------------------------------------*/
+#gallery img{
+    width: 100%;
+    height: 278px;
+}
+/* --------- For making the gallery pictures clickable ---------------------------------------------------------------*/
+#gallery label{
     -webkit-perspective: 1000px;
     perspective: 1000px;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    width: 263px;
-    height: 200px;
+    width: 100%;
+    height: 278px;
     cursor: pointer;
     margin: 2%;
     z-index: 0;
     float: left;
 }
 
-/* ---------- controls how long it'll take for the rotation ---------------------------------------------------------*/
+/* ---------- controls how long it'll take for the rotation ----------------------------------------------------------*/
 .card{
     width: 100%;
     height: 100%;
@@ -261,48 +324,58 @@ label{
     z-index: 20;
 }
 
-/* ---------- hides the "after" images, otherwise they'd be place under the "before" pictures -----------------------*/
+/* ---------- hides the "after" images, otherwise they'd be place under the "before" pictures ------------------------*/
 .card div{
     position: absolute;
     width: 100%;
     height:100%;
     text-align: center;
     line-height: 200px;
-    -webkit-backface-visibility: hidden;/* allow us to hide picture in chrome and safari ----------------------------*/
+    -webkit-backface-visibility: hidden;/* allow us to hide picture in chrome and safari -----------------------------*/
     backface-visibility: hidden;
 }
 
-/* ---------- allows after pictures to rotate -----------------------------------------------------------------------*/
+/* ---------- allows after pictures to rotate ------------------------------------------------------------------------*/
 .card .back{
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
+/*---------- Used to know when a user has clicked a picture ----------------------------------------------------------*/
 input{
     display: none;
 }
 
+/*---------- When the input is checked/click, rotate image -----------------------------------------------------------*/
 :checked + .card {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
+/*---------- Gallery Images Captions position ------------------------------------------------------------------------*/
+.gallery-caption {
+    width:100%;
+    top: .2rem;
+    position: absolute;
+    /*background: -webkit-linear-gradient(top, #000 0, rgba(0, 0, 0, 0) 10%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+
+}
+
+/*---------- Images caption color ------------------------------------------------------------------------------------*/
+.gallery-caption h4 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    /*-webkit-font-smoothing: antialiased;*/
+}
+
+/*---------- Map and hours section -----------------------------------------------------------------------------------*/
 .mapWrapper {
     position: relative;
-    padding-bottom: 56.6666667%; /* height/width */
     height: 0;
-    margin: 10px;
+    padding: 2%;
 }
 
-#broken{
-
-    width: 100%;
-}
-#gallery{
-    background-color: yellow;
-}
-
-.
 
 #location{
     background-color: #31b0d5;
