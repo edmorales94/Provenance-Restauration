@@ -1,8 +1,126 @@
 body{
-    overflow-x: hidden;/* without this, theres going to be a small space to the right > 100% */
-    background-color: rgba(255,247,179,0.81);
+    overflow-x: hidden;/* without this, there's going to be a small space to the right > 100% */
+    background: rgb(233,233,196);
+
+    background: -moz-linear-gradient(left, rgba(233,223,196,1) 0%,
+    rgba(233,223,196,1) 1%,
+    rgba(237,227,200,1) 2%,
+    rgba(237,227,200,1) 24%,
+    rgba(235,221,195,1) 25%,
+    rgba(233,223,196,1) 48%,
+    rgba(235,221,195,1) 49%,
+    rgba(230,216,189,1) 52%,
+    rgba(230,216,189,1) 53%,
+    rgba(233,219,192,1) 54%,
+    rgba(230,216,189,1) 55%,
+    rgba(230,216,189,1) 56%,
+    rgba(233,219,192,1) 57%,
+    rgba(230,216,189,1) 58%,
+    rgba(230,216,189,1) 73%,
+    rgba(233,219,192,1) 74%,
+    rgba(233,219,192,1) 98%,
+    rgba(235,221,195,1) 100%);
+
+    background: -webkit-gradient(linear, left top, right top,
+    color-stop(0%,rgba(233,223,196,1)),
+    color-stop(1%,rgba(233,223,196,1)),
+    color-stop(2%,rgba(237,227,200,1)),
+    color-stop(24%,rgba(237,227,200,1)),
+    color-stop(25%,rgba(235,221,195,1)),
+    color-stop(48%,rgba(233,223,196,1)),
+    color-stop(49%,rgba(235,221,195,1)),
+    color-stop(52%,rgba(230,216,189,1)),
+    color-stop(53%,rgba(230,216,189,1)),
+    color-stop(54%,rgba(233,219,192,1)),
+    color-stop(55%,rgba(230,216,189,1)),
+    color-stop(56%,rgba(230,216,189,1)),
+    color-stop(57%,rgba(233,219,192,1)),
+    color-stop(58%,rgba(230,216,189,1)),
+    color-stop(73%,rgba(230,216,189,1)),
+    color-stop(74%,rgba(233,219,192,1)),
+    color-stop(98%,rgba(233,219,192,1)),
+    color-stop(100%,rgba(235,221,195,1)));
+
+    background: -webkit-linear-gradient(left, rgba(233,223,196,1) 0%,
+    rgba(233,223,196,1) 1%,
+    rgba(237,227,200,1) 2%,
+    rgba(237,227,200,1) 24%,
+    rgba(235,221,195,1) 25%,
+    rgba(233,223,196,1) 48%,
+    rgba(235,221,195,1) 49%,
+    rgba(230,216,189,1) 52%,
+    rgba(230,216,189,1) 53%,
+    rgba(233,219,192,1) 54%,
+    rgba(230,216,189,1) 55%,
+    rgba(230,216,189,1) 56%,
+    rgba(233,219,192,1) 57%,
+    rgba(230,216,189,1) 58%,
+    rgba(230,216,189,1) 73%,
+    rgba(233,219,192,1) 74%,
+    rgba(233,219,192,1) 98%,
+    rgba(235,221,195,1) 100%);
+
+    background: -o-linear-gradient(left, rgba(233,223,196,1) 0%,
+    rgba(233,223,196,1) 1%,
+    rgba(237,227,200,1) 2%,
+    rgba(237,227,200,1) 24%,
+    rgba(235,221,195,1) 25%,
+    rgba(233,223,196,1) 48%,
+    rgba(235,221,195,1) 49%,
+    rgba(230,216,189,1) 52%,
+    rgba(230,216,189,1) 53%,
+    rgba(233,219,192,1) 54%,
+    rgba(230,216,189,1) 55%,
+    rgba(230,216,189,1) 56%,
+    rgba(233,219,192,1) 57%,
+    rgba(230,216,189,1) 58%,
+    rgba(230,216,189,1) 73%,
+    rgba(233,219,192,1) 74%,
+    rgba(233,219,192,1) 98%,
+    rgba(235,221,195,1) 100%);
+
+    background: -ms-linear-gradient(left, rgba(233,223,196,1) 0%,
+    rgba(233,223,196,1) 1%,
+    rgba(237,227,200,1) 2%,
+    rgba(237,227,200,1) 24%,
+    rgba(235,221,195,1) 25%,
+    rgba(233,223,196,1) 48%,
+    rgba(235,221,195,1) 49%,
+    rgba(230,216,189,1) 52%,
+    rgba(230,216,189,1) 53%,
+    rgba(233,219,192,1) 54%,
+    rgba(230,216,189,1) 55%,
+    rgba(230,216,189,1) 56%,
+    rgba(233,219,192,1) 57%,
+    rgba(230,216,189,1) 58%,
+    rgba(230,216,189,1) 73%,
+    rgba(233,219,192,1) 74%,
+    rgba(233,219,192,1) 98%,
+    rgba(235,221,195,1) 100%);
+
+    background: linear-gradient(left, rgba(233,223,196,1) 0%,
+    rgba(233,223,196,1) 1%,
+    rgba(237,227,200,1) 2%,
+    rgba(237,227,200,1) 24%,
+    rgba(235,221,195,1) 25%,
+    rgba(233,223,196,1) 48%,
+    rgba(235,221,195,1) 49%,
+    rgba(230,216,189,1) 52%,
+    rgba(230,216,189,1) 53%,
+    rgba(233,219,192,1) 54%,
+    rgba(230,216,189,1) 55%,
+    rgba(230,216,189,1) 56%,
+    rgba(233,219,192,1) 57%,
+    rgba(230,216,189,1) 58%,
+    rgba(230,216,189,1) 73%,
+    rgba(233,219,192,1) 74%,
+    rgba(233,219,192,1) 98%,
+    rgba(235,221,195,1) 100%);
+
+    background-size: 120px;
+    background-repeat: repeat;
 }
-/* ---------- Navigation bar ----------------------------------------------------------------------------------------*/
+/* ---------- Navigation bar -----------------------------------------------------------------------------------------*/
 .navbar-default{
     position: fixed;
     margin:0;
@@ -11,7 +129,7 @@ body{
     box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
     border-color: transparent;
 }
-/* ---------- Navigation bar wood color -----------------------------------------------------------------------------*/
+/* ---------- Navigation bar wood color ------------------------------------------------------------------------------*/
 nav.wood{
     position: fixed;
     margin:0;
@@ -29,69 +147,69 @@ nav.wood{
             #632401 50%);/*end of the nav bar colors */
     ;
 }
-/* ---------- Brand Name in navigation bar --------------------------------------------------------------------------*/
+/* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
 .navbar-default .navbar-brand {
     color: white;
     font-weight: bold;
 }
-/* ---------- Menu icon will change background color if it's hovered ------------------------------------------------*/
+/* ---------- Menu icon will change background color if it's hovered -------------------------------------------------*/
 .navbar-default .navbar-toggle:hover{
     background-color: #5a5758;
 }
 
-/* ---------- This changes the default color of the menu bars -------------------------------------------------------*/
+/* ---------- This changes the default color of the menu bars --------------------------------------------------------*/
 .navbar-default .navbar-toggle .icon-bar{
     background-color: white;
 }
 
-/* ---------- Deletes the white line navbar and items when menu drops down ------------------------------------------*/
+/* ---------- Deletes the white line navbar and items when menu drops down -------------------------------------------*/
 .navbar.navbar-default .navbar-collapse {
     border: none;
     box-shadow: none;
 }
 
-/* ---------- This changes the color of the links in navigation bar -------------------------------------------------*/
+/* ---------- This changes the color of the links in navigation bar --------------------------------------------------*/
 #myNavBar ul li a{
     font-size: 20px;
     color: white;
 }
 
-/* ---------- This changes the color of the links in navigation bar when hovered ------------------------------------*/
+/* ---------- This changes the color of the links in navigation bar when hovered -------------------------------------*/
 #myNavBar ul li a:hover{
     font-size: 25px;
     color: red;
     text-decoration: underline;
 }
 
-/* ---------- allows everything to use the 100% width of website ----------------------------------------------------*/
+/* ---------- allows everything to use the 100% width of website -----------------------------------------------------*/
 .container{
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-/*---------- Carousel section ---------------------------------------------------------------------------------------*/
+/*---------- Carousel section ----------------------------------------------------------------------------------------*/
 .carousel-inner img{
     width: 100%;
 }
-/*---------- About us section ---------------------------------------------------------------------------------------*/
+/*---------- About us section ----------------------------------------------------------------------------------------*/
 #about{
     padding: 3% 2% 5% 2%; /*keeps everything away from the page margin */
 }
 
-/*---------- About us title ----------------------------------------------------------------------------------------*/
+/*---------- About us title ------------------------------------------------------------------------------------------*/
 #about h2{
     padding-top: -4%;
     font-family: 'Tangerine', cursive, 'Cutive', serif, 'Arial Black', cursive;
     font-weight: 900;
 }
 
-/*---------- line under the about us title --------------------------------------------------------------------------*/
+/*---------- line under the about us title ---------------------------------------------------------------------------*/
 #about hr{
     border-top: 2px solid black;
 }
 
-/*---------- about us picture ---------------------------------------------------------------------------------------*/
+/*---------- about us picture ----------------------------------------------------------------------------------------*/
 #about img{
     width: 100%;
     height: auto;
@@ -99,7 +217,7 @@ nav.wood{
     margin-bottom: 2%;
 }
 
-/*---------- about us text ------------------------------------------------------------------------------------------*/
+/*---------- about us text -------------------------------------------------------------------------------------------*/
 #about p{
     text-align: left;
     font-family: 'Cutive',serif;
@@ -107,22 +225,18 @@ nav.wood{
     margin-top: -2%;
 }
 
-/*---------- broken furniture image ---------------------------------------------------------------------------------*/
-#broken img{
+/*---------- old chair image -----------------------------------------------------------------------------------------*/
+#old img{
     width: 100%;
-    height: 682px;
+    height: 710px;
 }
-@media (max-width: 991px){
-    #broken img{
-        width: 100%;
-        height: auto;
-    }
+
+/*---------- old chair image caption ---------------------------------------------------------------------------------*/
+#old .carousel-caption{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 61px;
 }
-/*---------- old chair image caption ------------------------------------------------------------------------------*/
-.imageCaption{
-    margin-top: 2%;
-}
-/* ---------- For making the gallery pictures clickable -------------------------------------------------------------*/
+/* ---------- For making the gallery pictures clickable --------------------------------------------------------------*/
 label{
     -webkit-perspective: 1000px;
     perspective: 1000px;
