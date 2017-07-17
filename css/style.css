@@ -201,7 +201,8 @@ nav.wood{
 #about h2{
     padding-top: -4%;
     font-family: 'Tangerine', cursive, 'Cutive', serif, 'Arial Black', cursive;
-    font-weight: 900;
+    font-size: 85px;
+    font-weight: bold;
 }
 
 /*---------- line under the about us title ---------------------------------------------------------------------------*/
@@ -220,7 +221,7 @@ nav.wood{
 /*---------- about us text -------------------------------------------------------------------------------------------*/
 #about p{
     text-align: left;
-    font-family: 'Cutive',serif;
+    font-family:'Merienda',cursive, 'Cutive',serif;
     font-size:  20px;
     margin-top: -2%;
 }
@@ -370,86 +371,86 @@ input{
 }
 
 /*---------- Map and hours section -----------------------------------------------------------------------------------*/
-.mapWrapper {
+#location{
+    background-color: #e6d8bd;
+}
+
+/*---------- Location and hours title section ------------------------------------------------------------------------*/
+#location h1{
+    font-family: 'Pacifico',cursive;
+    font-size: 55px;
+    padding: 2% 2% 2% 2%;
+}
+/*---------- mapwrapper that keeps the map picture with padding ------------------------------------------------------*/
+.mapWrapper{
     position: relative;
-    height: 0;
+    padding: 0 2% 2% 2%;
+}
+
+/*---------- when the map picture is hovered, the mouse will turn to pointer -----------------------------------------*/
+.mapWrapper  img{
+    cursor: pointer;
+    width: 47%;
+    height: auto;
+    float: left;
+    margin-bottom: 6%;
+}
+
+/*---------- the whole rectangle that contains the hours/days --------------------------------------------------------*/
+.business-hours{
+    background: #222;
+    position: relative;
+    width: 47%;
+    float: right;
+    margin: -2% 2% 5% 2%;
     padding: 2%;
 }
 
-
-#location{
-    background-color: #31b0d5;
-}
-
-.mapWrapper  img{
-    cursor: pointer;
-    background: #ac2925;
-}
-
-.demo-bg{
-    background: #ffac0c;
-    margin-top: 60px;
-}
-
-.business-hours{
-    background: #222;
-    padding: 40px 14px;
-    margin-top: -15px;
-    position: relative;
-}
-
-.business-hours:before{
-    content: '';
-    width: 23px;
-    height: 23px;
-    background: #111;
-    top:5px;
-    left: -12px;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    z-index: -1;
-    position: absolute;
-}
-
+/*---------- Hours title ---------------------------------------------------------------------------------------------*/
 .business-hours .title{
-    font-size: 20px;
-    color: #BBB;
+    font-size: 24px;
+    color: white;
     text-transform: uppercase;
-    padding-left: 5px;
+    padding-left: 8px;
     border-left: 4px solid #ffac0c;
 }
 
+/*---------- List of days --------------------------------------------------------------------------------------------*/
 .business-hours li{
-    color: #888;
-    line-height: 30px;
+    color: #9f9f9f;
+    line-height: 50px;
+    font-size: 20px;
     border-bottom: 1px solid #333;
 }
 
+/*---------- This is for saturday, so it won't have a line at the bottom ---------------------------------------------*/
 .business-hours li:last-child{
     border-bottom: none;
 }
 
+/*---------- The current day will be colored orange, used Javascript -------------------------------------------------*/
 .business-hours .opening-hours li.today{
     color: #ffac0c;
 }
 
 /*---------- footer section ------------------------------------------------------------------------------------------*/
 footer{
-    background: #243c4f;
+    /*background: #243c4f;*/
+    background-color: #5a2002;
     padding: 15px 0;
 }
 
 footer p{
-    font-size: 16px;
+    font-size: 19px;
     color: white;
 }
 
 footer a{
-    color: #3ac341;
+    color: cyan;
 }
 
 footer a:hover{
-    color: #3ac341;
+    color: cyan;
 }
 
 footer .footer-title{
@@ -465,16 +466,16 @@ footer .footer-title:after{
     display: block;
     width: 110px;
     height: 1px;
-    background: #3ac341;
+    background: cyan;
     margin-top: 0;
 }
 
 footer .right-border{
-    border-right: 3px solid rgba(255,255,255,0.1);
+    border-right: 3px solid white;
 }
 
 footer .left-border{
-    border-left: 3px solid rgba(255,255,255,0.1);
+    border-left: 3px solid white;
 }
 
 @media (max-width: 991px){
@@ -522,7 +523,7 @@ footer .contact-info .single {
 footer .contact-info .single i { /* icons */
     display: block;
     float: left;
-    color: #3ac341;
+    color: cyan;
     margin-right: 15px;
     line-height: 22px;
 }
