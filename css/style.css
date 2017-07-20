@@ -1,3 +1,4 @@
+/* Custum, iPhone Retine */
 @media only screen and (min-width: 320px){
     body{
         overflow-x: hidden;/* without this, there's going to be a small space to the right > 100% */
@@ -121,6 +122,7 @@
         background-size: 110px;
         background-repeat: repeat;
     }
+
     /* ---------- Navigation bar -----------------------------------------------------------------------------------------*/
     .navbar-default{
         position: fixed;
@@ -139,6 +141,7 @@
         linear-gradient(90deg, #7a2e00 50%,
                 #632401 50%);/*end of the nav bar colors */
     }
+
     /* ---------- Navigation bar wood color ------------------------------------------------------------------------------*/
     nav.wood{
         position: fixed;
@@ -156,12 +159,14 @@
         linear-gradient(90deg, #7a2e00 50%,
                 #632401 50%);/*end of the nav bar colors */
     }
+
     /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
     .navbar-default .navbar-brand {
         color: white;
         font-weight: bold;
         font-size: 13px;
     }
+
     /* ---------- Menu icon will change background color if it's hovered -------------------------------------------------*/
     .navbar-default .navbar-toggle:hover{
         background-color: #5a5758;
@@ -209,11 +214,13 @@
     .carousel h2{
         margin-top: -2px;
     }
+
     /*---------- Carousel section ----------------------------------------------------------------------------------------*/
     .carousel-inner img{
         width: 100%;
         min-height: 165px;
     }
+
     /*---------- About us section ----------------------------------------------------------------------------------------*/
     #about{
         padding: 4% 4% 5% 4%; /*keeps everything away from the page margin */
@@ -322,6 +329,7 @@
         padding: 2% 2% 0 2%;
         font-size: 13px;
     }
+
     /*---------- gallery pictures ----------------------------------------------------------------------------------------*/
     #gallery img{
         min-width: 320px;
@@ -329,6 +337,7 @@
         margin-left: -8%;
         margin-bottom: 2%;
     }
+
     /* --------- For making the gallery pictures clickable ---------------------------------------------------------------*/
     #gallery label{
         -webkit-perspective: 1000px;
@@ -419,6 +428,7 @@
         padding: 2% 2% 0 2%;
         font-size: 13px;
     }
+
     /*---------- mapwrapper that keeps the map picture with padding ------------------------------------------------------*/
     .mapWrapper{
         position: relative;
@@ -597,6 +607,7 @@
     }
 }
 
+/*Extra small devices, Phones */
 @media only screen and (min-width: 480px){
     body{
         overflow-x: hidden;/* without this, there's going to be a small space to the right > 100% */
@@ -720,6 +731,7 @@
         background-size: 110px;
         background-repeat: repeat;
     }
+
     /* ---------- Navigation bar -----------------------------------------------------------------------------------------*/
     .navbar-default{
         position: fixed;
@@ -729,6 +741,7 @@
         box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
         border-color: transparent;
     }
+
     /* ---------- Navigation bar wood color ------------------------------------------------------------------------------*/
     nav.wood{
         position: fixed;
@@ -745,14 +758,15 @@
         linear-gradient(90deg, #541c09 50%, transparent 50%),
         linear-gradient(90deg, #7a2e00 50%,
                 #632401 50%);/*end of the nav bar colors */
-    ;
     }
+
     /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
     .navbar-default .navbar-brand {
-        color: white;
+        color: red;
         font-weight: bold;
-        font-size: 21px;
+        font-size: 18px;
     }
+
     /* ---------- Menu icon will change background color if it's hovered -------------------------------------------------*/
     .navbar-default .navbar-toggle:hover{
         background-color: #5a5758;
@@ -789,27 +803,29 @@
         width: 100%;
     }
 
-    /*---------- Carousel section ----------------------------------------------------------------------------------------*/
+    /*----------- contains the carousel itself ---------------------------------------------------------------------------*/
     .carousel{
         width: 100%;
-        height: 350px;
+        margin-top: 0;
     }
 
+    /*---------- Carousel section ----------------------------------------------------------------------------------------*/
     .carousel-inner img{
         width: 100%;
-        height: 350px;
+        min-height: 262px;
     }
+
     /*---------- About us section ----------------------------------------------------------------------------------------*/
     #about{
-        padding: 3% 2% 5% 2%; /*keeps everything away from the page margin */
+        padding: 4% 4% 5% 4%; /*keeps everything away from the page margin */
     }
 
     /*---------- About us title ------------------------------------------------------------------------------------------*/
     #about h2{
-        padding-top: -4%;
         font-family: 'Tangerine', cursive, 'Cutive', serif, 'Arial Black', cursive;
-        font-size: 85px;
+        font-size: 50px;
         font-weight: bold;
+        margin-top: 30%;
     }
 
     /*---------- line under the about us title ---------------------------------------------------------------------------*/
@@ -819,93 +835,99 @@
 
     /*---------- about us picture ----------------------------------------------------------------------------------------*/
     #about img{
-        width: 100%;
+        min-width: 425px;
+        margin-left: 0.8%;
+        margin-right: 0.8%;
         height: auto;
         float: left;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 
     /*---------- about us text -------------------------------------------------------------------------------------------*/
     #about p{
-        text-align: left;
+        text-align: justify;
         font-family:'Merienda',cursive, 'Cutive',serif;
-        font-size:  20px;
-        margin-top: -2%;
+        font-weight: bold;
+        font-size:  15px;
+        margin-bottom: 16%;
     }
 
     /*---------- old chair image -----------------------------------------------------------------------------------------*/
     #broken img{
-        width: 100%;
-        height: 660px;
-        margin-bottom: -4%;
-        filter: grayscale(100%);
+        width: 425px;
+        height: auto;
+        margin-bottom: 5%;
+        margin-left: 4%;
+        margin-right: 8%;
+        /*filter: grayscale(100%);*/
     }
 
     /*---------- broken chair image caption ------------------------------------------------------------------------------*/
     #broken .carousel-caption{
         font-family: 'Crete Round', cursive;
-        color: cyan;
-        padding-top: -2%;
-        margin-top: -8%;
-        margin-right: -8%;
-        margin-left: 2%;
-        font-size: 40px;
+        color:rgba(1,234,206,0.81);
+        font-size: 17px;
         font-weight: bold;
-        text-align: left;
     }
 
     /*----------- Services section ---------------------------------------------------------------------------------------*/
     #services{
-        margin-bottom: 6%;
+        margin-bottom: 10%;
     }
 
     /*---------- Service section title -----------------------------------------------------------------------------------*/
     #services .section-header{
         font-family: 'Pacifico', cursive;
-        padding: 2% 0 3% 3%;
-        font-size: 55px;
+        padding: 10% 0 3% 3.5%;
+        font-size: 45px;
     }
 
     /*---------- Services List Title -------------------------------------------------------------------------------------*/
     #services .service-title{
         margin-top: -2%;
-        padding: 0 1% 0 2%;
+        margin-bottom: 1.5%;
+        padding: 0 1% 0 4.5%;
         font-family: 'Niconne', cursive;
-        font-size: 45px;
+        font-size: 32px;
     }
 
     /*---------- Services descriptions -----------------------------------------------------------------------------------*/
     #services .service-content{
         margin-top: -1%;
-        padding: 0 2% 0 2%;
+        padding: 0 4% 0 4%;
+        text-align: justify;
         font-family: 'Merienda',cursive;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 13px;
     }
 
     /*---------- Gallery section -----------------------------------------------------------------------------------------*/
     #gallery{
-        padding: 0 1.5% 0 0.5%;
-        margin-bottom: 6%;
+        padding: 0 1.5% 0 0;
     }
 
     /*---------- Gallery section title -----------------------------------------------------------------------------------*/
     #gallery h1{
         font-family: 'Pacifico',cursive;
-        font-size: 55px;
-        padding: 2% 2% 4% 2%;
+        font-size: 35px;
+        padding: 10% 2% 4% 2%;
     }
 
     /*---------- click on image message ----------------------------------------------------------------------------------*/
     #gallery p{
         margin-top: -3%;
         margin-bottom: 3%;
-        font-size: 18px;
+        margin-left: 6%;
+        margin-right: 6%;
+        padding: 2% 2% 0 2%;
+        font-size: 13px;
     }
+
     /*---------- gallery pictures ----------------------------------------------------------------------------------------*/
     #gallery img{
-        width: 100%;
-        height: 278px;
+        width: 415px;
+        height: 272px;
+        margin-left: 0.5%;
     }
     /* --------- For making the gallery pictures clickable ---------------------------------------------------------------*/
     #gallery label{
@@ -974,48 +996,57 @@
         color: black;
         font-size: 24px;
         font-weight: bold;
+        margin-left: 10%;
         /*-webkit-font-smoothing: antialiased;*/
     }
 
     /*---------- Map and hours section -----------------------------------------------------------------------------------*/
-    #location{
-        background-color: #e6d8bd;
-    }
 
     /*---------- Location and hours title section ------------------------------------------------------------------------*/
     #location h1{
         font-family: 'Pacifico',cursive;
-        font-size: 55px;
-        padding: 2% 2% 2% 2%;
+        font-size: 38px;
+        margin: 15% 6% 2% 6%;
     }
+
+    /*---------- description of location ---------------------------------------------------------------------------------*/
+    #location p{
+        margin-top: 3%;
+        margin-bottom: 5%;
+        margin-left: 6%;
+        margin-right: 6%;
+        padding: 2% 2% 0 2%;
+        font-size: 16px;
+    }
+
     /*---------- mapwrapper that keeps the map picture with padding ------------------------------------------------------*/
     .mapWrapper{
         position: relative;
-        padding: 0 2% 2% 2%;
     }
 
     /*---------- when the map picture is hovered, the mouse will turn to pointer -----------------------------------------*/
     .mapWrapper  img{
         cursor: pointer;
-        width: 47%;
+        width: 93%;
         height: auto;
         float: left;
-        margin-bottom: 6%;
+        margin-bottom: 12%;
+        margin-left: 4%;
     }
 
     /*---------- the whole rectangle that contains the hours/days --------------------------------------------------------*/
     .business-hours{
         background: #222;
         position: relative;
-        width: 47%;
-        float: right;
-        margin: -2% 2% 5% 2%;
-        padding: 2%;
+        width: 100%;
+        float: left;
+        margin: -2% 2% 5% 0;
+        padding: 4%;
     }
 
     /*---------- Hours title ---------------------------------------------------------------------------------------------*/
     .business-hours .title{
-        font-size: 24px;
+        font-size: 18px;
         color: white;
         text-transform: uppercase;
         padding-left: 8px;
@@ -1025,8 +1056,8 @@
     /*---------- List of days --------------------------------------------------------------------------------------------*/
     .business-hours li{
         color: #9f9f9f;
-        line-height: 50px;
-        font-size: 20px;
+        line-height: 33px;
+        font-size: 15px;
         border-bottom: 1px solid #333;
     }
 
@@ -1048,7 +1079,7 @@
     }
 
     footer p{
-        font-size: 19px;
+        font-size: 15px;
         color: white;
     }
 
@@ -1086,7 +1117,7 @@
     }
 
     footer .footer-about {
-        padding: 0 0 20px 20px;
+        padding: 20px 0 20px 20px;
     }
 
     footer .contact-info .single {
@@ -1145,7 +1176,7 @@
     footer .navigation li a {
         color: white;
         text-transform: uppercase;
-        line-height: 30px;
+        line-height: 28px;
         text-decoration: none;
     }
 
@@ -1154,8 +1185,9 @@
     }
 
     footer .copyright {
-        padding-top: 40px;
-        padding-left: 20px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .nonclickable{
@@ -1197,6 +1229,4 @@
         border-top: 1px solid white;
     }
 }
-
-
 
