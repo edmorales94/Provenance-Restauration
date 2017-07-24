@@ -162,7 +162,7 @@
 
     /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
     .navbar-default .navbar-brand {
-        color: white;
+        color: yellow;
         font-weight: bold;
         font-size: 13px;
     }
@@ -215,6 +215,18 @@
         margin-top: -2px;
     }
 
+    /*---------- edit the size of the carousel image title ---------------------------------------------------------------*/
+    .carousel-inner h2{
+        font-size: 28px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    /*---------- edit the letters of the carousel images -----------------------------------------------------------------*/
+    .carousel-inner p{
+        font-size: 14px;
+        font-family: 'Merienda',cursive;
+    }
+
     /*---------- Carousel section ----------------------------------------------------------------------------------------*/
     .carousel-inner img{
         width: 100%;
@@ -223,7 +235,7 @@
 
     /*---------- About us section ----------------------------------------------------------------------------------------*/
     #about{
-        padding: 4% 4% 5% 4%; /*keeps everything away from the page margin */
+        padding: 0.5% 4% 5% 4%; /*keeps everything away from the page margin */
     }
 
     /*---------- About us title ------------------------------------------------------------------------------------------*/
@@ -241,8 +253,8 @@
 
     /*---------- about us picture ----------------------------------------------------------------------------------------*/
     #about img{
-        min-width: 320px;
-        margin-left: -4.5%;
+        width: 100%;
+        margin-left: 0;
         height: auto;
         float: left;
         margin-bottom: 5%;
@@ -254,12 +266,14 @@
         font-family:'Merienda',cursive, 'Cutive',serif;
         font-weight: bold;
         font-size:  13px;
+        padding-right: 6%;
+        padding-left: 6%;
     }
 
     /*---------- old chair image -----------------------------------------------------------------------------------------*/
     #broken img{
-        width: 320px;
-        height: 250px;
+        width: 100%;
+        height: 265px;
         margin-bottom: 5%;
         /*filter: grayscale(100%);*/
     }
@@ -268,11 +282,8 @@
     #broken .carousel-caption{
         font-family: 'Crete Round', cursive;
         color:rgba(1,234,206,0.81);
-        padding-top: 0;
-        margin-top: 0;
-        margin-right: 0;
         margin-left: 1%;
-        font-size: 13px;
+        font-size: 5px;
         font-weight: bold;
         text-align: left;
     }
@@ -301,7 +312,7 @@
     /*---------- Services descriptions -----------------------------------------------------------------------------------*/
     #services .service-content{
         margin-top: -1%;
-        padding: 0 4% 0 4%;
+        padding: 0 4.5% 0 4.5%;
         text-align: justify;
         font-family: 'Merienda',cursive;
         font-weight: bold;
@@ -332,7 +343,7 @@
 
     /*---------- gallery pictures ----------------------------------------------------------------------------------------*/
     #gallery img{
-        min-width: 320px;
+        min-width: 350px;
         height: auto;
         margin-left: -8%;
         margin-bottom: 2%;
@@ -344,7 +355,7 @@
         perspective: 1000px;
         -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
-        min-width: 320px;
+        min-width: 350px;
         height: auto;
         cursor: pointer;
         margin: 2%;
@@ -416,7 +427,7 @@
     #location h1{
         font-family: 'Pacifico',cursive;
         font-size: 32px;
-        margin: 15% 6% 2% 6%;
+        margin: -6% 6% 2% 6%;
     }
 
     /*---------- description of location ---------------------------------------------------------------------------------*/
@@ -438,11 +449,11 @@
     /*---------- when the map picture is hovered, the mouse will turn to pointer -----------------------------------------*/
     .mapWrapper  img{
         cursor: pointer;
-        min-width: 320px;
+        width: 100%;
         height: auto;
         float: left;
         margin-bottom: 12%;
-        margin-left: -2%;
+        margin-left: 0;
     }
 
     /*---------- the whole rectangle that contains the hours/days --------------------------------------------------------*/
@@ -762,7 +773,7 @@
 
     /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
     .navbar-default .navbar-brand {
-        color: white;
+        color: green;
         font-weight: bold;
         font-size: 18px;
     }
@@ -810,6 +821,18 @@
         height: 262px;
     }
 
+    /*---------- edit the size of the carousel image title ---------------------------------------------------------------*/
+    .carousel-inner h2{
+        font-size: 48px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    /*---------- edit the letters of the carousel images -----------------------------------------------------------------*/
+    .carousel-inner p{
+        font-size: 17px;
+        font-family: 'Merienda',cursive;
+    }
+
     /*---------- Carousel section ----------------------------------------------------------------------------------------*/
     .carousel-inner img{
         width: 100%;
@@ -836,8 +859,8 @@
 
     /*---------- about us picture ----------------------------------------------------------------------------------------*/
     #about img{
-        min-width: 425px;
-        margin-left: 0.8%;
+        width: 100%;
+        margin-left: 0;
         margin-right: 0.8%;
         height: auto;
         float: left;
@@ -855,11 +878,9 @@
 
     /*---------- old chair image -----------------------------------------------------------------------------------------*/
     #broken img{
-        width: 425px;
-        height: auto;
+        width: 100%;
+        min-height: 300px;
         margin-bottom: 5%;
-        margin-left: 4%;
-        margin-right: 8%;
         /*filter: grayscale(100%);*/
     }
 
@@ -926,7 +947,7 @@
 
     /*---------- gallery pictures ----------------------------------------------------------------------------------------*/
     #gallery img{
-        width: 415px;
+        width: 100%;
         height: 272px;
         margin-left: 0.5%;
     }
@@ -1007,7 +1028,7 @@
     #location h1{
         font-family: 'Pacifico',cursive;
         font-size: 38px;
-        margin: 15% 6% 2% 6%;
+        margin: 10% 6% 2% 6%;
     }
 
     /*---------- description of location ---------------------------------------------------------------------------------*/
@@ -1028,11 +1049,11 @@
     /*---------- when the map picture is hovered, the mouse will turn to pointer -----------------------------------------*/
     .mapWrapper  img{
         cursor: pointer;
-        width: 93%;
+        width: 100%;
         height: auto;
         float: left;
         margin-bottom: 12%;
-        margin-left: 4%;
+        margin-left: 0;
     }
 
     /*---------- the whole rectangle that contains the hours/days --------------------------------------------------------*/
@@ -1352,9 +1373,9 @@
 
     /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
     .navbar-default .navbar-brand {
-        color: red;
+        color: deepskyblue;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     /* ---------- Menu icon will change background color if it's hovered -------------------------------------------------*/
@@ -1375,14 +1396,14 @@
 
     /* ---------- This changes the color of the links in navigation bar --------------------------------------------------*/
     #myNavBar ul li a{
-        font-size: 14px;
+        font-size: 12px;
         color: white;
         padding-left: 1%;
     }
 
     /* ---------- This changes the color of the links in navigation bar when hovered -------------------------------------*/
     #myNavBar ul li a:hover{
-        font-size: 14px;
+        font-size: 12px;
         color: red;
         text-decoration: underline;
     }
@@ -1414,7 +1435,7 @@
 
     /*---------- About us section ----------------------------------------------------------------------------------------*/
     #about{
-        padding: 3% 2% 0 2%; /*keeps everything away from the page margin */
+        padding: 3% 0 0 0; /*keeps everything away from the page margin */
     }
 
     /*---------- About us title ------------------------------------------------------------------------------------------*/
@@ -1791,37 +1812,1194 @@
     }
 }
 
-@media (max-width: 991px){
+/*Medium devices, Desktops */
+@media only screen and (min-width: 992px){
+    body{
+        overflow-x: hidden;/* without this, there's going to be a small space to the right > 100% */
+        background: rgb(233,233,196);
+
+        background: -moz-linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background: -webkit-gradient(linear, left top, right top,
+        color-stop(0%,rgba(233,223,196,1)),
+        color-stop(1%,rgba(233,223,196,1)),
+        color-stop(2%,rgba(237,227,200,1)),
+        color-stop(24%,rgba(237,227,200,1)),
+        color-stop(25%,rgba(235,221,195,1)),
+        color-stop(48%,rgba(233,223,196,1)),
+        color-stop(49%,rgba(235,221,195,1)),
+        color-stop(52%,rgba(230,216,189,1)),
+        color-stop(53%,rgba(230,216,189,1)),
+        color-stop(54%,rgba(233,219,192,1)),
+        color-stop(55%,rgba(230,216,189,1)),
+        color-stop(56%,rgba(230,216,189,1)),
+        color-stop(57%,rgba(233,219,192,1)),
+        color-stop(58%,rgba(230,216,189,1)),
+        color-stop(73%,rgba(230,216,189,1)),
+        color-stop(74%,rgba(233,219,192,1)),
+        color-stop(98%,rgba(233,219,192,1)),
+        color-stop(100%,rgba(235,221,195,1)));
+
+        background: -webkit-linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background: -o-linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background: -ms-linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background: linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background-size: 110px;
+        background-repeat: repeat;
+    }
+
+    /* ---------- Navigation bar -----------------------------------------------------------------------------------------*/
+    .navbar-default{
+        position: fixed;
+        margin:0;
+        width: 100%;
+        background: rgba(19,19,19,0.7);
+        box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
+        border-color: transparent;
+    }
+
+    /* ---------- Navigation bar wood color ------------------------------------------------------------------------------*/
+    nav.wood{
+        position: fixed;
+        margin:0;
+        width: 100%;
+        background-size: 40px 160px,60px 29px, 27px 27px;/*This determines the size of the nav background bars*/
+        background-image:linear-gradient(94deg, rgba(91,33,5,.1) 0%,/*this is the code for the nav bars colors */
+        rgba(83,29,4,0.32) 23%,
+        rgba(74,24,3,.41) 47%,
+        rgba(80,27,5,0.44) 70%,
+        rgba(81,27,5,0.59) 74%,
+        rgba(93,33,4,0.2) 83%,
+        rgba(115,43,3,.5) 100%),
+        linear-gradient(90deg, #541c09 50%, transparent 50%),
+        linear-gradient(90deg, #7a2e00 50%,
+                #632401 50%);/*end of the nav bar colors */
+    }
+
+    /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
+    .navbar-default .navbar-brand {
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    /* ---------- Menu icon will change background color if it's hovered -------------------------------------------------*/
+    .navbar-default .navbar-toggle:hover{
+        background-color: #5a5758;
+    }
+
+    /* ---------- This changes the default color of the menu bars --------------------------------------------------------*/
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: white;
+    }
+
+    /* ---------- Deletes the white line navbar and items when menu drops down -------------------------------------------*/
+    .navbar.navbar-default .navbar-collapse {
+        border: none;
+        box-shadow: none;
+    }
+
+    /* ---------- This changes the color of the links in navigation bar --------------------------------------------------*/
+    #myNavBar ul li a{
+        font-size: 15px;
+        color: white;
+        padding-left: 1%;
+        margin-left: -2%;
+    }
+
+    /* ---------- This changes the color of the links in navigation bar when hovered -------------------------------------*/
+    #myNavBar ul li a:hover{
+        font-size: 15px;
+        color: red;
+        text-decoration: underline;
+    }
+
+    /* ---------- allows everything to use the 100% width of website -----------------------------------------------------*/
+    .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    /*----------- contains the carousel itself ---------------------------------------------------------------------------*/
+    .carousel{
+        width: 100%;
+        margin-top: 0;
+        height: 445px;
+    }
+
+    /*---------- Carousel section ----------------------------------------------------------------------------------------*/
+    .carousel-inner img{
+        width: 100%;
+        min-height: 445px;
+    }
+
+    /*---------- About us section ----------------------------------------------------------------------------------------*/
+    #about{
+        padding: 5% 2% 5% 2%; /*keeps everything away from the page margin */
+    }
+
+    /*---------- About us title ------------------------------------------------------------------------------------------*/
+    #about h2{
+        margin-top: 1%;
+        font-family: 'Tangerine', cursive, 'Cutive', serif, 'Arial Black', cursive;
+        font-size: 85px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    /*---------- line under the about us title ---------------------------------------------------------------------------*/
+    #about hr{
+        border-top: 2px solid black;
+    }
+
+    /*---------- about us picture ----------------------------------------------------------------------------------------*/
     #about img{
-        width: 60%;
+        width: 600px;
         height: auto;
         float: left;
-        margin-right: 2em;
+        margin-right: 2.2%;
     }
-    footer .copyright {
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        margin-top: 40px;
+
+    /*---------- about us text -------------------------------------------------------------------------------------------*/
+    #about p{
+        text-align: left;
+        font-family:'Merienda',cursive, 'Cutive',serif;
+        font-size:  16px;
+        margin-top: -.5%;
+    }
+
+    /*---------- broken section ------------------------------------------------------------------------------------------*/
+    #broken{
+        margin-top: -12%;
+    }
+
+    /*---------- old chair image -----------------------------------------------------------------------------------------*/
+    #broken img{
+        width: 100%;
+        height: 610px;
+        margin-left: 0;
+        /*filter: grayscale(100%);*/
+    }
+
+    /*---------- broken chair image caption ------------------------------------------------------------------------------*/
+    #broken .carousel-caption{
+        font-family: 'Crete Round', cursive;
+        color: cyan;
+        margin-bottom: 4.5%;
+        margin-right: -6.5%;
+        font-size: 85.5px;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    /*----------- Services section ---------------------------------------------------------------------------------------*/
+    #services{
+        margin-bottom: 3%;
+    }
+
+    /*---------- Service section title -----------------------------------------------------------------------------------*/
+    #services .section-header{
+        font-family: 'Pacifico', cursive;
+        padding: 3% 0 3% 2%;
+        font-size: 50px;
+    }
+
+    /*---------- Services List Title -------------------------------------------------------------------------------------*/
+    #services .service-title{
+        margin-top: -2%;
+        margin-bottom: 1.5%;
+        padding: 0 0 0 2%;
+        font-family: 'Niconne', cursive;
+        font-size: 40px;
+    }
+
+    /*---------- Services descriptions -----------------------------------------------------------------------------------*/
+    #services .service-content{
+        margin-top: -1%;
+        padding: 0 2% 0 2%;
+        text-align: justify;
+        font-family: 'Merienda',cursive;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    /*---------- Gallery section -----------------------------------------------------------------------------------------*/
+    #gallery{
+        padding: 0 1.5% 0 0;
+    }
+
+    /*---------- Gallery section title -----------------------------------------------------------------------------------*/
+    #gallery h1{
+        font-family: 'Pacifico',cursive;
+        font-size: 46px;
+        padding: 4% 2% 4% 2%;
+    }
+
+    /*---------- click on image message ----------------------------------------------------------------------------------*/
+    #gallery p{
+        margin-top: -5%;
+        margin-bottom: 3%;
+        margin-left: 6%;
+        margin-right: 6%;
+        padding: 2% 2% 0 2%;
+        font-size: 15px;
+    }
+
+    /*---------- changes the columns for the gallery pictures ------------------------------------------------------------*/
+    #pictures .col-md-6{
+        padding-left: 1.2% !important;
+        padding-right: .8% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /*---------- gallery pictures ----------------------------------------------------------------------------------------*/
+    #gallery img{
+        width: 100%;
+        height: 410px;
+    }
+
+    /* --------- For making the gallery pictures clickable ---------------------------------------------------------------*/
+    #gallery label{
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    /* ---------- controls how long it'll take for the rotation ----------------------------------------------------------*/
+    .card{
+        width: 100%;
+        height: 410px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transition: all 0.5s;/*allow transition in chrome and safari */
+        transition: all 0.5s;
+    }
+
+    /* ---------- hides the "after" images, otherwise they'd be place under the "before" pictures ------------------------*/
+    .card div{
+        position: absolute;
+        width: 100%;
+        height:100%;
         text-align: center;
+        line-height: 200px;
+        -webkit-backface-visibility: hidden;/* allow us to hide picture in chrome and safari -----------------------------*/
+        backface-visibility: hidden;
     }
-    footer .right-border {
-        border-right: none;
+
+    /* ---------- allows after pictures to rotate ------------------------------------------------------------------------*/
+    .card .back{
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    /*---------- Used to know when a user has clicked a picture ----------------------------------------------------------*/
+    input{
+        display: none;
+    }
+
+    /*---------- When the input is checked/click, rotate image -----------------------------------------------------------*/
+    :checked + .card {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    /*---------- Images caption color ------------------------------------------------------------------------------------*/
+    .gallery-caption h4 {
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 10%;
+        /*-webkit-font-smoothing: antialiased;*/
+    }
+
+    /*---------- Location and hours title section ------------------------------------------------------------------------*/
+    #location h1{
+        font-family: 'Pacifico',cursive;
+        font-size: 48px;
+        margin: 6% 6% 2% 6%;
+    }
+
+    /*---------- description of location ---------------------------------------------------------------------------------*/
+    #location p{
+        margin-top: -2%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 2% 2.5% 0 2.5%;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    /*---------- mapwrapper that keeps the map picture with padding ------------------------------------------------------*/
+    .mapWrapper{
+        position: relative;
+        padding: 0 2% 2% 1.5%;
+    }
+
+    /*---------- when the map picture is hovered, the mouse will turn to pointer -----------------------------------------*/
+    .mapWrapper  img{
+        cursor: pointer;
+        width: 47%;
+        height: auto;
+        float: left;
+        margin-bottom: 6%;
+    }
+
+    /*---------- the whole rectangle that contains the hours/days --------------------------------------------------------*/
+    .business-hours{
+        background: #222;
+        position: relative;
+        width: 47%;
+        height: auto;
+        float: right;
+        margin: -2% 2% 5% 2%;
+        padding: 2%;
+    }
+
+    /*---------- Hours title ---------------------------------------------------------------------------------------------*/
+    .business-hours .title{
+        font-size: 24px;
+        color: white;
+        text-transform: uppercase;
+        padding-left: 8px;
+        border-left: 4px solid #ffac0c;
+    }
+
+    /*---------- List of days --------------------------------------------------------------------------------------------*/
+    .business-hours li{
+        color: #9f9f9f;
+        line-height: 32px;
+        font-size: 18px;
+        border-bottom: 1px solid #333;
+        height: auto;
+    }
+
+    /*---------- This is for saturday, so it won't have a line at the bottom ---------------------------------------------*/
+    .business-hours li:last-child{
+        border-bottom: none;
+    }
+
+    /*---------- The current day will be colored orange, used Javascript -------------------------------------------------*/
+    .business-hours .opening-hours li.today{
+        color: #ffac0c;
+    }
+    /*---------- footer section ------------------------------------------------------------------------------------------*/
+    footer{
+        /*background: #243c4f;*/
+        background-color: #5a2002;
+        padding: 15px 0;
+    }
+
+    footer p{
+        font-size: 17px;
+        color: white;
+    }
+
+    footer a{
+        color: cyan;
+    }
+
+    footer a:hover{
+        color: cyan;
+    }
+
+    footer .footer-title{
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    footer .footer-title:after{
+        content: '';
+        display: block;
+        width: 110px;
+        height: 1px;
+        background: cyan;
+        margin-top: 0;
+    }
+
+    footer .right-border{
+        border-right: 3px solid white;
+    }
+
+    footer .left-border{
+        border-left: 3px solid white;
+    }
+
+    footer .footer-about {
+        padding: 20px 0 20px 20px;
+    }
+
+    footer .contact-info .single {
+        margin: 15px 0 0 10px;
+    }
+
+    footer .contact-info .single i { /* icons */
+        display: block;
+        float: left;
+        color: cyan;
+        margin-right: 15px;
+        line-height: 22px;
+    }
+
+    footer .contact-info .single p {
+        margin: 0;
+        padding: 0;
+        display: block;
+        overflow: hidden;
+    }
+
+    footer .social-icon{ /*social media icons */
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    footer .social-icon li a {
+        display: block;/*draws square around social icon */
+        width: 45px;
+        height: 45px;
+        margin-right: 5px;
+        text-align: center;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);/*rotates square to make it look like a diamond*/
+    }
+
+    footer .social-icon li a:hover { /*changes diamonds color*/
+        border-color: #3ac341;
+    }
+
+    footer .social-icon li a:visited{
+        border-color: #3ac341;
+    }
+
+    footer .social-icon li a i {
+        line-height: 43px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    footer .navigation li a {
+        color: white;
+        text-transform: uppercase;
+        line-height: 28px;
+        text-decoration: none;
+    }
+
+    footer .navigation li a:hover {
+        color: #3ac341;
+    }
+
+    footer .copyright {
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nonclickable{
+        pointer-events: none;
+        cursor: default;
     }
 }
 
-/*@media (max-width: 767px){
+/*Large devices, Wide Screens */
+@media only screen and (min-width: 1200px){
+    body{
+        overflow-x: hidden;/* without this, there's going to be a small space to the right > 100% */
+        background: rgb(233,233,196);
+
+        background: -moz-linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background: -webkit-gradient(linear, left top, right top,
+        color-stop(0%,rgba(233,223,196,1)),
+        color-stop(1%,rgba(233,223,196,1)),
+        color-stop(2%,rgba(237,227,200,1)),
+        color-stop(24%,rgba(237,227,200,1)),
+        color-stop(25%,rgba(235,221,195,1)),
+        color-stop(48%,rgba(233,223,196,1)),
+        color-stop(49%,rgba(235,221,195,1)),
+        color-stop(52%,rgba(230,216,189,1)),
+        color-stop(53%,rgba(230,216,189,1)),
+        color-stop(54%,rgba(233,219,192,1)),
+        color-stop(55%,rgba(230,216,189,1)),
+        color-stop(56%,rgba(230,216,189,1)),
+        color-stop(57%,rgba(233,219,192,1)),
+        color-stop(58%,rgba(230,216,189,1)),
+        color-stop(73%,rgba(230,216,189,1)),
+        color-stop(74%,rgba(233,219,192,1)),
+        color-stop(98%,rgba(233,219,192,1)),
+        color-stop(100%,rgba(235,221,195,1)));
+
+        background: -webkit-linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background: -o-linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background: -ms-linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background: linear-gradient(left, rgba(233,223,196,1) 0%,
+        rgba(233,223,196,1) 1%,
+        rgba(237,227,200,1) 2%,
+        rgba(237,227,200,1) 24%,
+        rgba(235,221,195,1) 25%,
+        rgba(233,223,196,1) 48%,
+        rgba(235,221,195,1) 49%,
+        rgba(230,216,189,1) 52%,
+        rgba(230,216,189,1) 53%,
+        rgba(233,219,192,1) 54%,
+        rgba(230,216,189,1) 55%,
+        rgba(230,216,189,1) 56%,
+        rgba(233,219,192,1) 57%,
+        rgba(230,216,189,1) 58%,
+        rgba(230,216,189,1) 73%,
+        rgba(233,219,192,1) 74%,
+        rgba(233,219,192,1) 98%,
+        rgba(235,221,195,1) 100%);
+
+        background-size: 110px;
+        background-repeat: repeat;
+    }
+
+    /* ---------- Navigation bar -----------------------------------------------------------------------------------------*/
+    .navbar-default{
+        position: fixed;
+        margin:0;
+        width: 100%;
+        background: rgba(19,19,19,0.7);
+        box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
+        border-color: transparent;
+    }
+
+    /* ---------- Navigation bar wood color ------------------------------------------------------------------------------*/
+    nav.wood{
+        position: fixed;
+        margin:0;
+        width: 100%;
+        background-size: 40px 160px,60px 29px, 27px 27px;/*This determines the size of the nav background bars*/
+        background-image:linear-gradient(94deg, rgba(91,33,5,.1) 0%,/*this is the code for the nav bars colors */
+        rgba(83,29,4,0.32) 23%,
+        rgba(74,24,3,.41) 47%,
+        rgba(80,27,5,0.44) 70%,
+        rgba(81,27,5,0.59) 74%,
+        rgba(93,33,4,0.2) 83%,
+        rgba(115,43,3,.5) 100%),
+        linear-gradient(90deg, #541c09 50%, transparent 50%),
+        linear-gradient(90deg, #7a2e00 50%,
+                #632401 50%);/*end of the nav bar colors */
+    }
+
+    /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
+    .navbar-default .navbar-brand {
+        color: red;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    /* ---------- Menu icon will change background color if it's hovered -------------------------------------------------*/
+    .navbar-default .navbar-toggle:hover{
+        background-color: #5a5758;
+    }
+
+    /* ---------- This changes the default color of the menu bars --------------------------------------------------------*/
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: white;
+    }
+
+    /* ---------- Deletes the white line navbar and items when menu drops down -------------------------------------------*/
+    .navbar.navbar-default .navbar-collapse {
+        border: none;
+        box-shadow: none;
+    }
+
+    /* ---------- This changes the color of the links in navigation bar --------------------------------------------------*/
+    #myNavBar ul li a{
+        font-size: 20px;
+        color: white;
+        padding-left: 4%;
+        margin-left: -4%;
+    }
+
+    /* ---------- This changes the color of the links in navigation bar when hovered -------------------------------------*/
+    #myNavBar ul li a:hover{
+        font-size: 20px;
+        color: red;
+        text-decoration: underline;
+    }
+
+    /* ---------- allows everything to use the 100% width of website -----------------------------------------------------*/
+    .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    /*----------- contains the carousel itself ---------------------------------------------------------------------------*/
+    .carousel{
+        width: 100%;
+        margin-top: 0;
+        height: 550px;
+    }
+
+    /*---------- edit the size of the carousel image title ---------------------------------------------------------------*/
+    .carousel-inner h2{
+        font-size: 68px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    /*---------- edit the letters of the carousel images -----------------------------------------------------------------*/
+    .carousel-inner p{
+        font-size: 24px;
+        font-family: 'Merienda',cursive;
+    }
+    /*---------- Carousel section ----------------------------------------------------------------------------------------*/
+    .carousel-inner img{
+        width: 100%;
+        min-height: 550px;
+    }
+
+    /*---------- About us section ----------------------------------------------------------------------------------------*/
+    #about{
+        padding: 1% 2% 8% 2%; /*keeps everything away from the page margin */
+    }
+
+    /*---------- About us title ------------------------------------------------------------------------------------------*/
+    #about h2{
+        font-family: 'Tangerine', cursive, 'Cutive', serif, 'Arial Black', cursive;
+        font-size: 100px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    /*---------- line under the about us title ---------------------------------------------------------------------------*/
+    #about hr{
+        border-top: 2px solid black;
+    }
+
+    /*---------- about us picture ----------------------------------------------------------------------------------------*/
+    #about img{
+        width: 700px;
+        height: auto;
+        float: left;
+        margin-top: 1%;
+        margin-right: 2.2%;
+    }
+
+    /*---------- about us text -------------------------------------------------------------------------------------------*/
+    #about p{
+        text-align: left;
+        font-family:'Merienda',cursive, 'Cutive',serif;
+        font-size:  17px;
+        margin-top: 13%;
+    }
+
+    /*---------- broken section ------------------------------------------------------------------------------------------*/
+    #broken{
+        margin-top: -16%;
+    }
+
+    /*---------- old chair image -----------------------------------------------------------------------------------------*/
+    #broken img{
+        width: 100%;
+        height: 615px;
+        margin-left: 0;
+        /*filter: grayscale(100%);*/
+    }
+
+    /*---------- broken chair image caption ------------------------------------------------------------------------------*/
+    #broken .carousel-caption{
+        font-family: 'Crete Round', cursive;
+        color: cyan;
+        margin-bottom: 4.5%;
+        margin-right: -6.5%;
+        font-size: 45.5px;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    /*----------- Services section ---------------------------------------------------------------------------------------*/
+    #services{
+        margin-bottom: 3%;
+    }
+
+    /*---------- Service section title -----------------------------------------------------------------------------------*/
+    #services .section-header{
+        font-family: 'Pacifico', cursive;
+        padding: 3% 0 3% 2%;
+        font-size: 55px;
+    }
+
+    /*---------- Services List Title -------------------------------------------------------------------------------------*/
+    #services .service-title{
+        margin-top: -2%;
+        margin-bottom: 1.5%;
+        padding: 0 0 0 2%;
+        font-family: 'Niconne', cursive;
+        font-size: 42px;
+    }
+
+    /*---------- Services descriptions -----------------------------------------------------------------------------------*/
+    #services .service-content{
+        margin-top: -1%;
+        padding: 0 2% 0 2%;
+        text-align: justify;
+        font-family: 'Merienda',cursive;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    /*---------- Gallery section -----------------------------------------------------------------------------------------*/
+    #gallery{
+        padding: 0 1.5% 0 0;
+    }
+
+    /*---------- Gallery section title -----------------------------------------------------------------------------------*/
+    #gallery h1{
+        font-family: 'Pacifico',cursive;
+        font-size: 55px;
+        padding: 4% 2% 4% 2%;
+    }
+
+    /*---------- click on image message ----------------------------------------------------------------------------------*/
+    #gallery p{
+        margin-top: -5%;
+        margin-bottom: 3%;
+        margin-left: 6%;
+        margin-right: 6%;
+        padding: 2% 2% 0 2%;
+        font-size: 15px;
+    }
+
+    /*---------- changes the columns for the gallery pictures ------------------------------------------------------------*/
+    #pictures .col-md-6{
+        padding-left: 1.2% !important;
+        padding-right: .8% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /*---------- gallery pictures ----------------------------------------------------------------------------------------*/
+    #gallery img{
+        width: 100%;
+        height: 410px;
+    }
+
+    /* --------- For making the gallery pictures clickable ---------------------------------------------------------------*/
+    #gallery label{
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    /* ---------- controls how long it'll take for the rotation ----------------------------------------------------------*/
+    .card{
+        width: 100%;
+        height: 410px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transition: all 0.5s;/*allow transition in chrome and safari */
+        transition: all 0.5s;
+    }
+
+    /* ---------- hides the "after" images, otherwise they'd be place under the "before" pictures ------------------------*/
+    .card div{
+        position: absolute;
+        width: 100%;
+        height:100%;
+        text-align: center;
+        line-height: 200px;
+        -webkit-backface-visibility: hidden;/* allow us to hide picture in chrome and safari -----------------------------*/
+        backface-visibility: hidden;
+    }
+
+    /* ---------- allows after pictures to rotate ------------------------------------------------------------------------*/
+    .card .back{
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    /*---------- Used to know when a user has clicked a picture ----------------------------------------------------------*/
+    input{
+        display: none;
+    }
+
+    /*---------- When the input is checked/click, rotate image -----------------------------------------------------------*/
+    :checked + .card {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    /*---------- Images caption color ------------------------------------------------------------------------------------*/
+    .gallery-caption h4 {
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 10%;
+        /*-webkit-font-smoothing: antialiased;*/
+    }
+
+    /*---------- Location and hours title section ------------------------------------------------------------------------*/
+    #location h1{
+        font-family: 'Pacifico',cursive;
+        font-size: 48px;
+        margin: 6% 6% 2% 6%;
+    }
+
+    /*---------- description of location ---------------------------------------------------------------------------------*/
+    #location p{
+        margin-top: -3%;
+        margin-bottom: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 2% 2.5% 0 2.5%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /*---------- mapwrapper that keeps the map picture with padding ------------------------------------------------------*/
+    .mapWrapper{
+        position: relative;
+        padding: 0 2% 2% 1.5%;
+    }
+
+    /*---------- when the map picture is hovered, the mouse will turn to pointer -----------------------------------------*/
+    .mapWrapper  img{
+        cursor: pointer;
+        width: 47%;
+        height: auto;
+        float: left;
+        margin-bottom: 6%;
+    }
+
+    /*---------- the whole rectangle that contains the hours/days --------------------------------------------------------*/
+    .business-hours{
+        background: #222;
+        position: relative;
+        width: 47%;
+        height: auto;
+        float: right;
+        margin: -2% 2% 5% 2%;
+        padding: 2%;
+    }
+
+    /*---------- Hours title ---------------------------------------------------------------------------------------------*/
+    .business-hours .title{
+        font-size: 28px;
+        color: white;
+        text-transform: uppercase;
+        padding-left: 8px;
+        border-left: 4px solid #ffac0c;
+    }
+
+    /*---------- List of days --------------------------------------------------------------------------------------------*/
+    .business-hours li{
+        color: #9f9f9f;
+        line-height: 47px;
+        font-size: 22px;
+        border-bottom: 1px solid #333;
+    }
+
+    /*---------- This is for saturday, so it won't have a line at the bottom ---------------------------------------------*/
+    .business-hours li:last-child{
+        border-bottom: none;
+    }
+
+    /*---------- The current day will be colored orange, used Javascript -------------------------------------------------*/
+    .business-hours .opening-hours li.today{
+        color: #ffac0c;
+    }
+    /*---------- footer section ------------------------------------------------------------------------------------------*/
+    footer{
+        /*background: #243c4f;*/
+        background-color: #5a2002;
+        padding: 15px 0;
+    }
+
+    footer p{
+        font-size: 17px;
+        color: white;
+    }
+
+    footer a{
+        color: cyan;
+    }
+
+    footer a:hover{
+        color: cyan;
+    }
+
+    footer .footer-title{
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    footer .footer-title:after{
+        content: '';
+        display: block;
+        width: 110px;
+        height: 1px;
+        background: cyan;
+        margin-top: 0;
+    }
+
     footer .right-border{
-        border-right: none;
+        border-right: 3px solid white;
     }
+
     footer .left-border{
-        border-left: none;
+        border-left: 3px solid white;
     }
 
-    footer .contact-info{
-        border-top: 2px solid white;
+    footer .footer-about {
+        padding: 20px 0 20px 20px;
     }
-    footer .navigation {
+
+    footer .contact-info .single {
+        margin: 15px 0 0 10px;
+    }
+
+    footer .contact-info .single i { /* icons */
+        display: block;
+        float: left;
+        color: cyan;
+        margin-right: 15px;
+        line-height: 22px;
+    }
+
+    footer .contact-info .single p {
+        margin: 0;
+        padding: 0;
+        display: block;
+        overflow: hidden;
+    }
+
+    footer .social-icon{ /*social media icons */
         margin-top: 40px;
-        border-top: 1px solid white;
+        margin-left: 15px;
     }
-}*/
 
+    footer .social-icon li a {
+        display: block;/*draws square around social icon */
+        width: 45px;
+        height: 45px;
+        margin-right: 5px;
+        text-align: center;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);/*rotates square to make it look like a diamond*/
+    }
+
+    footer .social-icon li a:hover { /*changes diamonds color*/
+        border-color: #3ac341;
+    }
+
+    footer .social-icon li a:visited{
+        border-color: #3ac341;
+    }
+
+    footer .social-icon li a i {
+        line-height: 43px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    footer .navigation li a {
+        color: white;
+        text-transform: uppercase;
+        line-height: 28px;
+        text-decoration: none;
+    }
+
+    footer .navigation li a:hover {
+        color: #3ac341;
+    }
+
+    footer .copyright {
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nonclickable{
+        pointer-events: none;
+        cursor: default;
+    }
+}
