@@ -598,6 +598,470 @@ footer .copyright {
     cursor: default;
 }
 
+/* super small devices */
+@media only screen and (min-width: 320px){
+    /*---------- this allows to use max 100 width, no extra white space --------------------------------------------------*/
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    /* ---------- Navigation bar -----------------------------------------------------------------------------------------*/
+    .navbar-default{
+        position: fixed;
+        margin:0;
+        width: 100%;
+        border-bottom: transparent;
+        background-size: 40px 160px,60px 29px, 27px 27px;/*This determines the size of the nav background bars*/
+        background-image:linear-gradient(94deg, rgba(91,33,5,.1) 0%,/*this is the code for the nav bars colors */
+        rgba(83,29,4,0.32) 23%,
+        rgba(74,24,3,.41) 47%,
+        rgba(80,27,5,0.44) 70%,
+        rgba(81,27,5,0.59) 74%,
+        rgba(93,33,4,0.2) 83%,
+        rgba(115,43,3,.5) 100%),
+        linear-gradient(90deg, #541c09 50%, transparent 50%),
+        linear-gradient(90deg, #7a2e00 50%,
+                #632401 50%);/*end of the nav bar colors */
+    }
+
+    /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
+    .navbar-default .navbar-brand {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    /* ---------- This changes the color of the links in navigation bar --------------------------------------------------*/
+    #myNavBar ul li a{
+        font-size: 20px;
+        color: white;
+    }
+
+    /* ---------- This changes the color of the links in navigation bar when hovered -------------------------------------*/
+    #myNavBar ul li a:hover{
+        font-size: 20px;
+        color: red;
+        text-decoration: underline;
+    }
+
+    /*----------- contains the carousel itself ---------------------------------------------------------------------------*/
+    .carousel{
+        margin-top: 50px;
+        width: 100%;
+        height: 165px;
+    }
+
+    /*---------- carousel caption title ----------------------------------------------------------------------------------*/
+    .carousel h2{
+        margin-top: -2px;
+    }
+
+    /*---------- edit the size of the carousel image title ---------------------------------------------------------------*/
+    .carousel-inner h2{
+        font-size: 28px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    /*---------- edit the letters of the carousel images -----------------------------------------------------------------*/
+    .carousel-inner p{
+        font-size: 14px;
+        font-family: 'Merienda',cursive;
+    }
+
+    /*---------- Carousel section ----------------------------------------------------------------------------------------*/
+    .carousel-inner img{
+        width: 100%;
+        min-height: 165px;
+    }
+
+    /*---------- About us section ----------------------------------------------------------------------------------------*/
+    #about{
+        padding: 0.5% 4% 6% 4%; /*keeps everything away from the page margin */
+    }
+
+    /*---------- About us title ------------------------------------------------------------------------------------------*/
+    #about h2{
+        font-family: 'Tangerine', cursive, 'Cutive', serif, 'Arial Black', cursive;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 13%;
+    }
+
+    /*---------- about us picture ----------------------------------------------------------------------------------------*/
+    #about img{
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        float: left;
+        margin-bottom: 5%;
+    }
+
+    /*---------- about us text -------------------------------------------------------------------------------------------*/
+    #about p{
+        text-align: justify;
+        font-family:'Merienda',cursive, 'Cutive',serif;
+        font-weight: bold;
+        font-size:  13px;
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+
+    /*---------- This avoids the picture from overlapping the text -------------------------------------------------------*/
+    #broken{
+        margin-top: 4%;
+    }
+
+    /*---------- old chair image -----------------------------------------------------------------------------------------*/
+    #broken img{
+        width: 100%;
+        height: 260px;
+        margin-bottom: 10%;/* move the text up/down*/
+        /*filter: grayscale(100%);*/
+    }
+
+    /*---------- broken chair image caption ------------------------------------------------------------------------------*/
+    #broken .carousel-caption p{
+        font-family: 'Crete Round', cursive;
+        color:cyan;
+        margin-left: 1%;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    /*----------- Services section ---------------------------------------------------------------------------------------*/
+    #services{
+        margin-bottom: 14%;
+    }
+
+    /*---------- Service section title -----------------------------------------------------------------------------------*/
+    #services .section-header{
+        font-family: 'Pacifico', cursive;
+        padding: 10% 0 3% 3.5%;
+        font-size: 40px;
+    }
+
+    /*---------- Services List Title -------------------------------------------------------------------------------------*/
+    #services .service-title{
+        margin-top: -2%;
+        margin-bottom: 1.5%;
+        padding: 0 1% 0 4.5%;
+        font-family: 'Niconne', cursive;
+        font-size: 30px;
+    }
+
+    /*---------- Services descriptions -----------------------------------------------------------------------------------*/
+    #services .service-content{
+        margin-top: -1%;
+        padding: 0 4.5% 0 4.5%;
+        text-align: justify;
+        font-family: 'Merienda',cursive;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    /*---------- Gallery section -----------------------------------------------------------------------------------------*/
+    #gallery{
+        padding: 0 1.5% 0 0;
+    }
+
+    /*---------- Gallery section title -----------------------------------------------------------------------------------*/
+    #gallery h1{
+        font-family: 'Pacifico',cursive;
+        font-size: 35px;
+        padding: 10% 2% 4% 2%;
+    }
+
+    /*---------- click on image message ----------------------------------------------------------------------------------*/
+    #gallery p{
+        margin-top: -3%;
+        margin-bottom: 3%;
+        margin-left: 6%;
+        margin-right: 6%;
+        padding: 2% 2% 0 2%;
+        font-size: 13px;
+    }
+
+    /*---------- gallery pictures ----------------------------------------------------------------------------------------*/
+    #gallery img{
+        width: 100%;
+        height: 310px;
+        margin-left: 0;
+        margin-bottom: 1%;
+    }
+
+    /* --------- For making the gallery pictures clickable ---------------------------------------------------------------*/
+    #gallery label{
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        margin: 1%;
+        z-index: 0;
+        float: left;
+        margin-bottom: 93%;
+    }
+
+    /* ---------- controls how long it'll take for the rotation ----------------------------------------------------------*/
+    .card{
+        width: 100%;
+        height: 100%;
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transition: all 0.5s;/*allow transition in chrome and safari */
+        transition: all 0.5s;
+        z-index: 20;
+    }
+
+    /* ---------- hides the "after" images, otherwise they'd be place under the "before" pictures ------------------------*/
+    .card div{
+        position: absolute;
+        width: 100%;
+        height:100%;
+        text-align: center;
+        line-height: 200px;
+        -webkit-backface-visibility: hidden;/* allow us to hide picture in chrome and safari -----------------------------*/
+        backface-visibility: hidden;
+    }
+
+    /* ---------- allows after pictures to rotate ------------------------------------------------------------------------*/
+    .card .back{
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    /*---------- Used to know when a user has clicked a picture ----------------------------------------------------------*/
+    input{
+        display: none;
+    }
+
+    /*---------- When the input is checked/click, rotate image -----------------------------------------------------------*/
+    :checked + .card {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+
+    /*---------- Gallery Images Captions position ------------------------------------------------------------------------*/
+    .gallery-caption {
+        width:100%;
+        top: .2rem;
+        margin-left: -5%;
+        position: absolute;
+        /*background: -webkit-linear-gradient(top, #000 0, rgba(0, 0, 0, 0) 10%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+
+    }
+
+    /*---------- Images caption color ------------------------------------------------------------------------------------*/
+    .gallery-caption h4 {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        /*-webkit-font-smoothing: antialiased;*/
+    }
+
+    /*---------- Location and hours title section ------------------------------------------------------------------------*/
+    #location h1{
+        font-family: 'Pacifico',cursive;
+        font-size: 32px;
+        margin: 4% 6% 2% 6%;
+        padding-top: 9%;
+    }
+
+    /*---------- description of location ---------------------------------------------------------------------------------*/
+    #location p{
+        margin-top: 3%;
+        margin-bottom: 5%;
+        margin-left: 6%;
+        margin-right: 6%;
+        padding: 2% 2% 0 2%;
+        font-size: 13px;
+    }
+
+    /*---------- mapwrapper that keeps the map picture with padding ------------------------------------------------------*/
+    .mapWrapper{
+        position: relative;
+        padding: 0 2% 2% 2%;
+    }
+
+    /*---------- when the map picture is hovered, the mouse will turn to pointer -----------------------------------------*/
+    .mapWrapper  img{
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 12%;
+        margin-left: 0;
+    }
+
+    /*---------- the whole rectangle that contains the hours/days --------------------------------------------------------*/
+    .business-hours{
+        background: #222;
+        position: relative;
+        width: 100%;
+        float: left;
+        margin: -2% 2% 5% 0;
+        padding: 4%;
+    }
+
+    /*---------- Hours title ---------------------------------------------------------------------------------------------*/
+    .business-hours .title{
+        font-size: 18px;
+        color: white;
+        text-transform: uppercase;
+        padding-left: 8px;
+        border-left: 4px solid #ffac0c;
+    }
+
+    /*---------- List of days --------------------------------------------------------------------------------------------*/
+    .business-hours li{
+        color: #9f9f9f;
+        line-height: 33px;
+        font-size: 15px;
+        border-bottom: 1px solid #333;
+    }
+
+    /*---------- This is for saturday, so it won't have a line at the bottom ---------------------------------------------*/
+    .business-hours li:last-child{
+        border-bottom: none;
+    }
+
+    /*---------- The current day will be colored orange, used Javascript -------------------------------------------------*/
+    .business-hours .opening-hours li.today{
+        color: #ffac0c;
+    }
+
+    /*---------- footer section ------------------------------------------------------------------------------------------*/
+    footer{
+        /*background: #243c4f;*/
+        background-color: #5a2002;
+        padding: 15px 0;
+    }
+
+    footer p{
+        font-size: 15px;
+        color: white;
+    }
+
+    footer a{
+        color: cyan;
+    }
+
+    footer a:hover{
+        color: cyan;
+    }
+
+    footer .footer-title{
+        position: relative;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    footer .footer-title:after{
+        content: '';
+        display: block;
+        width: 110px;
+        height: 1px;
+        background: cyan;
+        margin-top: 0;
+    }
+
+    footer .right-border{
+        border-right: 3px solid white;
+    }
+
+    footer .left-border{
+        border-left: none;
+    }
+
+    footer .footer-about {
+        padding: 20px 0 20px 20px;
+    }
+
+    footer .contact-info .single {
+        margin: 15px 0 0 10px;
+    }
+
+    footer .contact-info .single i { /* icons */
+        display: block;
+        float: left;
+        color: cyan;
+        margin-right: 15px;
+        line-height: 22px;
+    }
+
+    footer .contact-info .single p {
+        margin: 0;
+        padding: 0;
+        display: block;
+        overflow: hidden;
+    }
+
+    footer .social-icon{ /*social media icons */
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    footer .social-icon li a {
+        display: block;/*draws square around social icon */
+        width: 45px;
+        height: 45px;
+        margin-right: 5px;
+        text-align: center;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);/*rotates square to make it look like a diamond*/
+    }
+
+    footer .social-icon li a:hover { /*changes diamonds color*/
+        border-color: #3ac341;
+    }
+
+    footer .social-icon li a:visited{
+        border-color: #3ac341;
+    }
+
+    footer .social-icon li a i {
+        line-height: 43px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    footer .navigation li a {
+        color: white;
+        text-transform: uppercase;
+        line-height: 28px;
+        text-decoration: none;
+    }
+
+    footer .navigation li a:hover {
+        color: #3ac341;
+    }
+
+    footer .copyright {
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nonclickable{
+        pointer-events: none;
+        cursor: default;
+    }
+}
 
 /* Custum, iPhone Retine */
 @media only screen and (min-width: 360px){
@@ -728,7 +1192,7 @@ footer .copyright {
     /*---------- broken chair image caption ------------------------------------------------------------------------------*/
     #broken .carousel-caption p{
         font-family: 'Crete Round', cursive;
-        color:rgba(1,234,206,0.81);
+        color:cyan;
         margin-left: 1%;
         font-size: 15px;
         font-weight: bold;
@@ -1219,7 +1683,7 @@ footer .copyright {
 
     /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
     .navbar-default .navbar-brand {
-        color: green;
+        color: white;
         font-weight: bold;
         font-size: 18px;
     }
@@ -1336,8 +1800,8 @@ footer .copyright {
     /*---------- broken chair image caption ------------------------------------------------------------------------------*/
     #broken .carousel-caption p{
         font-family: 'Crete Round', cursive;
-        color:rgba(1,234,206,0.81);
-        font-size: 18px;
+        color:cyan;
+        font-size: 19px;
         font-weight: bold;
     }
 
@@ -1397,8 +1861,8 @@ footer .copyright {
     /*---------- gallery pictures ----------------------------------------------------------------------------------------*/
     #gallery img{
         width: 100%;
-        height: 272px;
-        margin-left: 0.5%;
+        height: 380px;
+        margin-left: 0;
     }
 
     /* --------- For making the gallery pictures clickable ---------------------------------------------------------------*/
@@ -1408,7 +1872,7 @@ footer .copyright {
         -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
         width: 100%;
-        height: 278px;
+        height: 380px;
         cursor: pointer;
         margin: 2%;
         z-index: 0;
@@ -1823,7 +2287,7 @@ footer .copyright {
 
     /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
     .navbar-default .navbar-brand {
-        color: deepskyblue;
+        color: white;
         font-weight: bold;
         font-size: 14px;
     }
@@ -2016,7 +2480,7 @@ footer .copyright {
     /*---------- gallery pictures ----------------------------------------------------------------------------------------*/
     #gallery img{
         width: 100%;
-        height: 430px;
+        height: 600px;
         margin: 0 2% 0 -1%;
     }
 
@@ -2027,14 +2491,14 @@ footer .copyright {
         -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
         width: 100%;
-        height: auto;
+        height: 600px;
         cursor: pointer;
     }
 
     /* ---------- controls how long it'll take for the rotation ----------------------------------------------------------*/
     .card{
         width: 100%;
-        height: 430px;
+        height: 100%;
         -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
         -webkit-transition: all 0.5s;/*allow transition in chrome and safari */
@@ -2071,7 +2535,7 @@ footer .copyright {
 
     /*---------- Images caption color ------------------------------------------------------------------------------------*/
     .gallery-caption h4 {
-        color: black;
+        color: white;
         font-size: 24px;
         font-weight: bold;
         margin-left: 10%;
@@ -3029,7 +3493,7 @@ footer .copyright {
 
     /* ---------- Brand Name in navigation bar ---------------------------------------------------------------------------*/
     .navbar-default .navbar-brand {
-        color: red;
+        color: white;
         font-weight: bold;
         font-size: 22px;
     }
@@ -3139,7 +3603,7 @@ footer .copyright {
     /*---------- old chair image -----------------------------------------------------------------------------------------*/
     #broken img{
         width: 100%;
-        height: 615px;
+        height: 645px;
         margin-left: 0;
         /*filter: grayscale(100%);*/
     }
@@ -3148,9 +3612,9 @@ footer .copyright {
     #broken .carousel-caption p{
         font-family: 'Crete Round', cursive;
         color: cyan;
-        margin-bottom: 8.5%;
+        margin-bottom: 12.5%;
         margin-right: -6.5%;
-        font-size: 39px;
+        font-size: 42px;
         font-weight: bold;
         text-align: justify;
     }
@@ -3273,7 +3737,7 @@ footer .copyright {
 
     /*---------- Images caption color ------------------------------------------------------------------------------------*/
     .gallery-caption h4 {
-        color: black;
+        color: white;
         font-size: 24px;
         font-weight: bold;
         margin-left: 10%;
@@ -3336,7 +3800,7 @@ footer .copyright {
     /*---------- List of days --------------------------------------------------------------------------------------------*/
     .business-hours li{
         color: #9f9f9f;
-        line-height: 47px;
+        line-height: 50px;
         font-size: 22px;
         border-bottom: 1px solid #333;
     }
