@@ -1,5 +1,7 @@
 body{
     overflow-x: hidden;/* without this, there's going to be a small space to the right > 100% */
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     background: rgb(233,233,196);
 
     background: -moz-linear-gradient(left, rgba(233,223,196,1) 0%,
@@ -3614,7 +3616,7 @@ footer .copyright {
         color: cyan;
         margin-bottom: 12.5%;
         margin-right: -6.5%;
-        font-size: 42px;
+        font-size: 40px;
         font-weight: bold;
         text-align: justify;
     }
