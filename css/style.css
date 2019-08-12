@@ -550,7 +550,7 @@ footer .social-icon{ /*social media icons */
 }
 
 footer .social-icon li a {
-    display: block;/*draws square around social icon */
+    display: inline-block;/*draws square around social icon */
     width: 45px;
     height: 45px;
     margin-right: 5px;
@@ -563,11 +563,11 @@ footer .social-icon li a {
 }
 
 footer .social-icon li a:hover { /*changes diamonds color*/
-    border-color: #3ac341;
+    border-color: white;
 }
 
 footer .social-icon li a:visited{
-    border-color: #3ac341;
+    border-color: white;
 }
 
 footer .social-icon li a i {
@@ -578,6 +578,14 @@ footer .social-icon li a i {
     transform: rotate(-45deg);
 }
 
+#facebook{
+    display: inline-block;
+}
+
+#instagram{
+    display: inline-block;
+}
+
 footer .navigation li a {
     color: white;
     text-transform: uppercase;
@@ -586,7 +594,7 @@ footer .navigation li a {
 }
 
 footer .navigation li a:hover {
-    color: #3ac341;
+    color: white;
 }
 
 footer .copyright {
@@ -1014,7 +1022,7 @@ footer .copyright {
     }
 
     footer .social-icon li a {
-        display: block;/*draws square around social icon */
+        display: inline-block;/*draws square around social icon */
         width: 45px;
         height: 45px;
         margin-right: 5px;
@@ -1027,11 +1035,11 @@ footer .copyright {
     }
 
     footer .social-icon li a:hover { /*changes diamonds color*/
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a:visited{
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a i {
@@ -1042,6 +1050,16 @@ footer .copyright {
         transform: rotate(-45deg);
     }
 
+    footer #facebook{
+        display: inline-block;
+        margin-left: 11%;
+        margin-right: 12%;
+    }
+
+    footer #instagram{
+        display: inline-block;
+    }
+
     footer .navigation li a {
         color: white;
         text-transform: uppercase;
@@ -1050,7 +1068,7 @@ footer .copyright {
     }
 
     footer .navigation li a:hover {
-        color: #3ac341;
+        color: white;
     }
 
     footer .copyright {
@@ -1479,7 +1497,7 @@ footer .copyright {
     }
 
     footer .social-icon li a {
-        display: block;/*draws square around social icon */
+        display: inline-block;/*draws square around social icon */
         width: 45px;
         height: 45px;
         margin-right: 5px;
@@ -1492,11 +1510,11 @@ footer .copyright {
     }
 
     footer .social-icon li a:hover { /*changes diamonds color*/
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a:visited{
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a i {
@@ -1506,6 +1524,17 @@ footer .copyright {
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
     }
+
+    #facebook{
+        display: inline-block;
+        margin-left: 80%;
+    }
+
+    #instagram{
+        display: inline-block;
+        margin-left: 7%;
+    }
+
 
     footer .navigation li a {
         color: white;
@@ -2083,7 +2112,7 @@ footer .copyright {
     }
 
     footer .social-icon li a {
-        display: block;/*draws square around social icon */
+        display: inline-block;/*draws square around social icon */
         width: 45px;
         height: 45px;
         margin-right: 5px;
@@ -2096,11 +2125,11 @@ footer .copyright {
     }
 
     footer .social-icon li a:hover { /*changes diamonds color*/
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a:visited{
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a i {
@@ -2109,6 +2138,16 @@ footer .copyright {
         -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
+    }
+
+    footer #facebook{
+        display: inline-block;
+        margin-left: 18%;
+    }
+
+    #instagram{
+        display: inline-block;
+        margin-left: 12%;
     }
 
     footer .navigation li a {
@@ -2688,7 +2727,7 @@ footer .copyright {
     }
 
     footer .social-icon li a {
-        display: block;/*draws square around social icon */
+        display: inline-block;/*draws square around social icon */
         width: 45px;
         height: 45px;
         margin-right: 5px;
@@ -2701,11 +2740,11 @@ footer .copyright {
     }
 
     footer .social-icon li a:hover { /*changes diamonds color*/
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a:visited{
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a i {
@@ -2714,6 +2753,16 @@ footer .copyright {
         -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
+    }
+
+    footer #facebook{
+        display: inline-block;
+        margin-left: 1%;
+     }
+
+    footer #instagram{
+        display: inline-block;
+        margin-left: -14%;
     }
 
     footer .navigation li a {
@@ -3289,7 +3338,7 @@ footer .copyright {
     }
 
     footer .social-icon li a {
-        display: block;/*draws square around social icon */
+        display: inline-block;/*draws square around social icon */
         width: 45px;
         height: 45px;
         margin-right: 5px;
@@ -3302,11 +3351,11 @@ footer .copyright {
     }
 
     footer .social-icon li a:hover { /*changes diamonds color*/
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a:visited{
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a i {
@@ -3317,6 +3366,14 @@ footer .copyright {
         transform: rotate(-45deg);
     }
 
+    footer #facebook{
+        margin-left: 0;
+        margin-right: 26px;
+    }
+
+    footer #instagram{
+        display: inline-block;
+    }
     footer .navigation li a {
         color: white;
         text-transform: uppercase;
@@ -3890,7 +3947,7 @@ footer .copyright {
     }
 
     footer .social-icon li a {
-        display: block;/*draws square around social icon */
+        display:inline-block;/*draws square around social icon */
         width: 45px;
         height: 45px;
         margin-right: 5px;
@@ -3903,11 +3960,11 @@ footer .copyright {
     }
 
     footer .social-icon li a:hover { /*changes diamonds color*/
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a:visited{
-        border-color: #3ac341;
+        border-color: white;
     }
 
     footer .social-icon li a i {
@@ -3918,6 +3975,14 @@ footer .copyright {
         transform: rotate(-45deg);
     }
 
+    footer #facebook{
+        display: inline-block;
+        margin-right: 14%;
+    }
+
+    footer #instagram{
+        display: inline-block;
+    }
     footer .navigation li a {
         color: white;
         text-transform: uppercase;
